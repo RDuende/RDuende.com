@@ -275,10 +275,22 @@ button[type="submit"] {
 	box-shadow: 0 12px 28px rgba(44, 62, 80, 0.15);
 }
 
+.service-card > a {
+	display: block;
+}
+
 .service-card-image {
 	display: block;
 	width: 100%;
 	height: auto;
+}
+
+.service-page-image {
+	display: block;
+	width: 100%;
+	height: auto;
+	border-radius: 12px;
+	margin-bottom: 1.5rem;
 }
 
 .clients-list {

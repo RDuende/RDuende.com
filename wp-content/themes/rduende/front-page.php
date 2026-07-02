@@ -41,28 +41,44 @@
 		<h2 class="section-title">Nuestros servicios</h2>
 		<ul class="services-grid">
 			<li class="service-card">
-				<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-impresion-gran-formato.jpg' ) ); ?>" alt="Impresión de gran formato: vallas, lonas, carteles y papeles" loading="lazy">
+				<a href="<?php echo esc_url( rduende_service_url( 'impresion-de-gran-formato' ) ); ?>">
+					<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-impresion-gran-formato.jpg' ) ); ?>" alt="Impresión de gran formato: vallas, lonas, carteles y papeles" loading="lazy">
+				</a>
 			</li>
 			<li class="service-card">
-				<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-rotulacion-vinilos.jpg' ) ); ?>" alt="Rotulación y vinilos: vehículos, escaparates y fachadas" loading="lazy">
+				<a href="<?php echo esc_url( rduende_service_url( 'rotulacion-de-vehiculos-y-empresas' ) ); ?>">
+					<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-rotulacion-vinilos.jpg' ) ); ?>" alt="Rotulación y vinilos: vehículos, escaparates y fachadas" loading="lazy">
+				</a>
 			</li>
 			<li class="service-card">
-				<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-corte-laser.jpg' ) ); ?>" alt="Corte y grabado láser: madera, metacrilato y metal" loading="lazy">
+				<a href="<?php echo esc_url( rduende_service_url( 'corte-y-grabado-laser' ) ); ?>">
+					<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-corte-laser.jpg' ) ); ?>" alt="Corte y grabado láser: madera, metacrilato y metal" loading="lazy">
+				</a>
 			</li>
 			<li class="service-card">
-				<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-textil-sublimacion.jpg' ) ); ?>" alt="Textil y sublimación: camisetas, ropa laboral y personalización" loading="lazy">
+				<a href="<?php echo esc_url( rduende_service_url( 'estampacion-de-camisetas-deportivas' ) ); ?>">
+					<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-textil-sublimacion.jpg' ) ); ?>" alt="Textil y sublimación: camisetas, ropa laboral y personalización" loading="lazy">
+				</a>
 			</li>
 			<li class="service-card">
-				<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-letras-corporeas.jpg' ) ); ?>" alt="Letras corpóreas: 3D, luminosas o sin luz" loading="lazy">
+				<a href="<?php echo esc_url( rduende_service_url( 'letras-corporeas' ) ); ?>">
+					<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-letras-corporeas.jpg' ) ); ?>" alt="Letras corpóreas: 3D, luminosas o sin luz" loading="lazy">
+				</a>
 			</li>
 			<li class="service-card">
-				<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-articulos-promocionales.jpg' ) ); ?>" alt="Artículos promocionales: regalos, merchandising y empresas" loading="lazy">
+				<a href="<?php echo esc_url( rduende_service_url( 'articulos-publicitarios' ) ); ?>">
+					<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-articulos-promocionales.jpg' ) ); ?>" alt="Artículos promocionales: regalos, merchandising y empresas" loading="lazy">
+				</a>
 			</li>
 			<li class="service-card">
-				<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-diseno-grafico.jpg' ) ); ?>" alt="Diseño gráfico: imagen, creatividad y comunicación" loading="lazy">
+				<a href="<?php echo esc_url( rduende_service_url( 'diseno-grafico' ) ); ?>">
+					<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-diseno-grafico.jpg' ) ); ?>" alt="Diseño gráfico: imagen, creatividad y comunicación" loading="lazy">
+				</a>
 			</li>
 			<li class="service-card">
-				<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-impresion-digital.jpg' ) ); ?>" alt="Impresión digital: tarjetas, folletos, catálogos y más" loading="lazy">
+				<a href="<?php echo esc_url( rduende_service_url( 'impresion-digital' ) ); ?>">
+					<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-impresion-digital.jpg' ) ); ?>" alt="Impresión digital: tarjetas, folletos, catálogos y más" loading="lazy">
+				</a>
 			</li>
 		</ul>
 		<a class="section-link" href="<?php echo esc_url( home_url( '/servicios/' ) ); ?>">Ver todos los servicios &rarr;</a>
