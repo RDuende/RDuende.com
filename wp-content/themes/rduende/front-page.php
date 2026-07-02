@@ -70,6 +70,12 @@
 		</section>
 	<?php endif; ?>
 
+	<section class="partner-promo">
+		<a href="https://vitrinas.net" target="_blank" rel="noopener">
+			<img class="partner-promo-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/vitrinas-banner.jpg' ) ); ?>" alt="Vitrinas.net – Tus colecciones, en el lugar que merecen. Vitrinas de metacrilato a medida." loading="lazy">
+		</a>
+	</section>
+
 	<section class="cta-band">
 		<h2>¿Tienes un proyecto en mente?</h2>
 		<p>Hablemos y démosle forma a tu idea.</p>

@@ -312,6 +312,26 @@ button[type="submit"] {
 	color: var(--rduende-text);
 }
 
+.partner-promo {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 1.5rem 3rem;
+}
+
+.partner-promo-image {
+	display: block;
+	width: 100%;
+	height: auto;
+	border-radius: 12px;
+	box-shadow: 0 4px 14px rgba(44, 62, 80, 0.12);
+	transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.partner-promo-image:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 10px 24px rgba(44, 62, 80, 0.18);
+}
+
 .cta-band {
 	text-align: center;
 	padding: 4rem 1.5rem;
