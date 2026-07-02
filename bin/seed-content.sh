@@ -24,6 +24,8 @@ SERVICIOS_ID=$($WP post create --post_type=page --post_title="Servicios" --post_
 <li class="service-card"><img class="service-card-image" src="/wp-content/themes/rduende/assets/images/icons/icon-textil-sublimacion.jpg" alt="Textil y sublimación: camisetas, ropa laboral y personalización"></li>
 <li class="service-card"><img class="service-card-image" src="/wp-content/themes/rduende/assets/images/icons/icon-letras-corporeas.jpg" alt="Letras corpóreas: 3D, luminosas o sin luz"></li>
 <li class="service-card"><img class="service-card-image" src="/wp-content/themes/rduende/assets/images/icons/icon-articulos-promocionales.jpg" alt="Artículos promocionales: regalos, merchandising y empresas"></li>
+<li class="service-card"><img class="service-card-image" src="/wp-content/themes/rduende/assets/images/icons/icon-diseno-grafico.jpg" alt="Diseño gráfico: imagen, creatividad y comunicación"></li>
+<li class="service-card"><img class="service-card-image" src="/wp-content/themes/rduende/assets/images/icons/icon-impresion-digital.jpg" alt="Impresión digital: tarjetas, folletos, catálogos y más"></li>
 </ul>' --porcelain)
 
 SOBRE_ID=$($WP post create --post_type=page --post_title="Sobre nosotros" --post_status=publish --post_content='<p><em>[Pendiente: historia, misión y equipo real de RDuende. Editar esta página en cuanto tengamos el texto definitivo.]</em></p>' --porcelain)
