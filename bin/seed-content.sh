@@ -28,7 +28,7 @@ SERVICIOS_ID=$($WP post create --post_type=page --post_title="Servicios" --post_
 
 SOBRE_ID=$($WP post create --post_type=page --post_title="Sobre nosotros" --post_status=publish --post_content='<p><em>[Pendiente: historia, misión y equipo real de RDuende. Editar esta página en cuanto tengamos el texto definitivo.]</em></p>' --porcelain)
 
-CONTACTO_ID=$($WP post create --post_type=page --post_title="Contacto" --post_status=publish --post_content='<p>La vida es demasiado corta para diseños aburridos.</p><p><em>[Pendiente: teléfono, email y/o dirección real. Por ahora, escríbenos desde el formulario de contacto.]</em></p>' --porcelain)
+CONTACTO_ID=$($WP post create --post_type=page --post_title="Contacto" --post_status=publish --post_content='<p>La vida es demasiado corta para diseños aburridos.</p><p>Teléfono: <a href="tel:+34968626506">968 62 65 06</a><br>Email: <a href="mailto:info@rduende.com">info@rduende.com</a></p><p><em>[Pendiente: dirección física, si se quiere publicar.]</em></p>' --porcelain)
 
 BLOG_PAGE_ID=$($WP post create --post_type=page --post_title="Blog" --post_status=publish --post_content='' --porcelain)
 
