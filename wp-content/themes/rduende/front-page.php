@@ -22,34 +22,22 @@
 		<h2 class="section-title">Nuestros servicios</h2>
 		<ul class="services-grid">
 			<li class="service-card">
-				<img class="service-icon-img" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-impresion-gran-formato.png' ) ); ?>" alt="" loading="lazy">
-				<strong>Impresión de gran formato</strong>
-				<p>Vinilos, lonas, cartelería, rollups y rótulos.</p>
+				<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-impresion-gran-formato.jpg' ) ); ?>" alt="Impresión de gran formato: vallas, lonas, carteles y papeles" loading="lazy">
 			</li>
 			<li class="service-card">
-				<img class="service-icon-img" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-rotulacion-vinilos.png' ) ); ?>" alt="" loading="lazy">
-				<strong>Rotulaciones de vehículos y empresas</strong>
-				<p>Comunicación visual en movimiento para tu marca.</p>
+				<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-rotulacion-vinilos.jpg' ) ); ?>" alt="Rotulación y vinilos: vehículos, escaparates y fachadas" loading="lazy">
 			</li>
 			<li class="service-card">
-				<img class="service-icon-img" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-corte-laser.png' ) ); ?>" alt="" loading="lazy">
-				<strong>Corte y grabado láser</strong>
-				<p>Precisión en madera, metacrilato y metal.</p>
+				<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-corte-laser.jpg' ) ); ?>" alt="Corte y grabado láser: madera, metacrilato y metal" loading="lazy">
 			</li>
 			<li class="service-card">
-				<img class="service-icon-img" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-textil-sublimacion.png' ) ); ?>" alt="" loading="lazy">
-				<strong>Estampación de camisetas deportivas</strong>
-				<p>Diseños duraderos y personalizados para equipos.</p>
+				<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-textil-sublimacion.jpg' ) ); ?>" alt="Textil y sublimación: camisetas, ropa laboral y personalización" loading="lazy">
 			</li>
 			<li class="service-card">
-				<img class="service-icon-img" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-letras-corporeas.png' ) ); ?>" alt="" loading="lazy">
-				<strong>Letras corpóreas</strong>
-				<p>Volumen y elegancia para dar visibilidad a tu marca.</p>
+				<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-letras-corporeas.jpg' ) ); ?>" alt="Letras corpóreas: 3D, luminosas o sin luz" loading="lazy">
 			</li>
 			<li class="service-card">
-				<img class="service-icon-img" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-articulos-promocionales.png' ) ); ?>" alt="" loading="lazy">
-				<strong>Artículos publicitarios</strong>
-				<p>Tazas, bolígrafos, mochilas y más, personalizados.</p>
+				<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-articulos-promocionales.jpg' ) ); ?>" alt="Artículos promocionales: regalos, merchandising y empresas" loading="lazy">
 			</li>
 		</ul>
 		<a class="section-link" href="<?php echo esc_url( home_url( '/servicios/' ) ); ?>">Ver todos los servicios &rarr;</a>

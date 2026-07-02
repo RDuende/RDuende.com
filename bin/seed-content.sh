@@ -18,12 +18,12 @@ $WP post delete 2 --force > /dev/null 2>&1 || true
 INICIO_ID=$($WP post create --post_type=page --post_title="Inicio" --post_status=publish --post_content='<p>En un mundo donde la primera impresión lo es todo, transformamos tus ideas en piezas gráficas que inspiran, comunican y dejan huella.</p>' --porcelain)
 
 SERVICIOS_ID=$($WP post create --post_type=page --post_title="Servicios" --post_status=publish --post_content='<ul class="services-grid">
-<li class="service-card"><img class="service-icon-img" src="/wp-content/themes/rduende/assets/images/icons/icon-impresion-gran-formato.png" alt=""><strong>Impresión de gran formato</strong><p>Vinilos, lonas, cartelería, rollups y rótulos.</p></li>
-<li class="service-card"><img class="service-icon-img" src="/wp-content/themes/rduende/assets/images/icons/icon-rotulacion-vinilos.png" alt=""><strong>Rotulaciones de vehículos y empresas</strong><p>Comunicación visual en movimiento para tu marca.</p></li>
-<li class="service-card"><img class="service-icon-img" src="/wp-content/themes/rduende/assets/images/icons/icon-corte-laser.png" alt=""><strong>Corte y grabado láser</strong><p>Precisión en madera, metacrilato y metal.</p></li>
-<li class="service-card"><img class="service-icon-img" src="/wp-content/themes/rduende/assets/images/icons/icon-textil-sublimacion.png" alt=""><strong>Estampación de camisetas deportivas</strong><p>Diseños duraderos y personalizados para equipos.</p></li>
-<li class="service-card"><img class="service-icon-img" src="/wp-content/themes/rduende/assets/images/icons/icon-letras-corporeas.png" alt=""><strong>Letras corpóreas</strong><p>Volumen y elegancia para dar visibilidad a tu marca.</p></li>
-<li class="service-card"><img class="service-icon-img" src="/wp-content/themes/rduende/assets/images/icons/icon-articulos-promocionales.png" alt=""><strong>Artículos publicitarios</strong><p>Tazas, bolígrafos, mochilas y más, personalizados.</p></li>
+<li class="service-card"><img class="service-card-image" src="/wp-content/themes/rduende/assets/images/icons/icon-impresion-gran-formato.jpg" alt="Impresión de gran formato: vallas, lonas, carteles y papeles"></li>
+<li class="service-card"><img class="service-card-image" src="/wp-content/themes/rduende/assets/images/icons/icon-rotulacion-vinilos.jpg" alt="Rotulación y vinilos: vehículos, escaparates y fachadas"></li>
+<li class="service-card"><img class="service-card-image" src="/wp-content/themes/rduende/assets/images/icons/icon-corte-laser.jpg" alt="Corte y grabado láser: madera, metacrilato y metal"></li>
+<li class="service-card"><img class="service-card-image" src="/wp-content/themes/rduende/assets/images/icons/icon-textil-sublimacion.jpg" alt="Textil y sublimación: camisetas, ropa laboral y personalización"></li>
+<li class="service-card"><img class="service-card-image" src="/wp-content/themes/rduende/assets/images/icons/icon-letras-corporeas.jpg" alt="Letras corpóreas: 3D, luminosas o sin luz"></li>
+<li class="service-card"><img class="service-card-image" src="/wp-content/themes/rduende/assets/images/icons/icon-articulos-promocionales.jpg" alt="Artículos promocionales: regalos, merchandising y empresas"></li>
 </ul>' --porcelain)
 
 SOBRE_ID=$($WP post create --post_type=page --post_title="Sobre nosotros" --post_status=publish --post_content='<p><em>[Pendiente: historia, misión y equipo real de RDuende. Editar esta página en cuanto tengamos el texto definitivo.]</em></p>' --porcelain)
