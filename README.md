@@ -1,8 +1,12 @@
 # RDuende.com
 
-## Desarrollo local (WordPress + Docker)
+Repositorio del sitio RDuende.com.
 
-Requisitos: [Docker Desktop](https://www.docker.com/products/docker-desktop/) con Docker Compose.
+## Requisitos
+
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/) con Docker Compose.
+
+## Desarrollo local (WordPress + Docker)
 
 1. Copia `.env.example` a `.env` y ajusta las contraseñas.
 2. Levanta los contenedores:
@@ -19,3 +23,7 @@ Para detener el entorno:
 ```sh
 docker compose down
 ```
+
+## Contribuir
+
+Las contribuciones son bienvenidas. Abre un issue o un pull request para proponer cambios.
