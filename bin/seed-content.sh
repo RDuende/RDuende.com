@@ -1,0 +1,43 @@
+#!/bin/sh
+# Crea el contenido inicial de RDuende.com (páginas, menú y entrada de blog)
+# dentro del contenedor de WordPress. Requiere WP-CLI instalado en el contenedor
+# y el stack de docker compose corriendo.
+#
+# Uso: docker compose exec wordpress sh /var/www/html/wp-content/themes/rduende/../../../bin/seed-content.sh
+# o copia este script dentro del contenedor y ejecútalo con `wp --allow-root`.
+
+set -e
+
+WP="wp --allow-root"
+
+INICIO_ID=$($WP post create --post_type=page --post_title="Inicio" --post_status=publish --post_content='<p>En un mundo donde la primera impresión lo es todo, transformamos tus ideas en piezas gráficas que inspiran, comunican y dejan huella.</p><p><strong>Tu idea, nuestro arte. ¡Descubre cómo podemos hacerla realidad!</strong></p><p><a class="button" href="/servicios/">Conócenos</a></p><h2>Confían en nosotros</h2><p>Eviosys, LINASA, Primafrio, GKS Trucks, Grúas Gil, Autocares Molina, Ecoembes, Aguas de Murcia.</p>' --porcelain)
+
+SERVICIOS_ID=$($WP post create --post_type=page --post_title="Servicios" --post_status=publish --post_content='<ul class="services-grid">
+<li class="service-card"><strong>Impresión de gran formato</strong><p>Vinilos, lonas, cartelería, rollups y rótulos.</p></li>
+<li class="service-card"><strong>Rotulaciones de vehículos y empresas</strong><p>Comunicación visual en movimiento para tu marca.</p></li>
+<li class="service-card"><strong>Corte y grabado láser</strong><p>Precisión en madera, metacrilato y metal.</p></li>
+<li class="service-card"><strong>Estampación de camisetas deportivas</strong><p>Diseños duraderos y personalizados para equipos.</p></li>
+<li class="service-card"><strong>Letras corpóreas</strong><p>Volumen y elegancia para dar visibilidad a tu marca.</p></li>
+<li class="service-card"><strong>Artículos publicitarios</strong><p>Tazas, bolígrafos, mochilas y más, personalizados.</p></li>
+</ul>' --porcelain)
+
+SOBRE_ID=$($WP post create --post_type=page --post_title="Sobre nosotros" --post_status=publish --post_content='<p><em>[Pendiente: historia, misión y equipo real de RDuende. Editar esta página en cuanto tengamos el texto definitivo.]</em></p>' --porcelain)
+
+CONTACTO_ID=$($WP post create --post_type=page --post_title="Contacto" --post_status=publish --post_content='<p>La vida es demasiado corta para diseños aburridos.</p><p><em>[Pendiente: teléfono, email y/o dirección real. Por ahora, escríbenos desde el formulario de contacto.]</em></p>' --porcelain)
+
+BLOG_PAGE_ID=$($WP post create --post_type=page --post_title="Blog" --post_status=publish --post_content='' --porcelain)
+
+$WP option update show_on_front page
+$WP option update page_on_front "$INICIO_ID"
+$WP option update page_for_posts "$BLOG_PAGE_ID"
+$WP option update blogdescription "Tu idea, nuestro arte"
+
+$WP post create --post_type=post --post_title="Reconstrucción del panel de mandos de una máquina recreativa COMAVI" --post_status=publish --post_date="2025-09-18 12:00:00" --post_content='<p>Una máquina recreativa no es solo un mueble electrónico: es un fragmento de la historia del ocio y la cultura popular.</p><p>El proceso de reconstrucción incluyó varias fases: digitalización del vinilo original, creación de plantillas de corte en metacrilato, procesamiento mediante máquina láser, e impresión digital del diseño en material transparente.</p><p>En el montaje, adherimos el vinilo bajo el metacrilato, aplicamos un fondo blanco para dar contraste, y ajustamos los orificios para los controles.</p><p>La reconstrucción de máquinas recreativas antiguas combina la preservación cultural con tecnología contemporánea: en RDuende integramos la tradición del diseño original con herramientas modernas como el corte láser y la impresión digital.</p>'
+
+$WP menu create "Principal"
+$WP menu item add-post principal "$INICIO_ID" --title="Inicio"
+$WP menu item add-post principal "$SERVICIOS_ID" --title="Servicios"
+$WP menu item add-post principal "$SOBRE_ID" --title="Sobre nosotros"
+$WP menu item add-post principal "$CONTACTO_ID" --title="Contacto"
+$WP menu item add-post principal "$BLOG_PAGE_ID" --title="Blog"
+$WP menu location assign principal primary
