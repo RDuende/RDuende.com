@@ -12,6 +12,25 @@
 		</div>
 	</section>
 
+	<section class="promo-ads">
+		<div class="promo-ads-row">
+			<a href="https://vitrinas.net" target="_blank" rel="noopener" class="promo-ad">
+				<img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/vitrinas-banner.jpg' ) ); ?>" alt="Vitrinas.net – Tus colecciones, en el lugar que merecen. Vitrinas de metacrilato a medida." loading="lazy">
+			</a>
+			<a href="<?php echo esc_url( home_url( '/servicios/' ) ); ?>" class="promo-ad">
+				<img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/promo-lienzos-camisetas.jpg' ) ); ?>" alt="Lienzos y camisetas personalizadas: tu historia, tu estilo, tu mundo." loading="lazy">
+			</a>
+		</div>
+		<div class="promo-ads-row">
+			<a href="<?php echo esc_url( home_url( '/servicios/' ) ); ?>" class="promo-ad">
+				<img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/promo-rotulacion-fachadas.jpg' ) ); ?>" alt="Rotulación de fachadas y tiendas, y carteles luminosos. Visibilidad que te hace inolvidable." loading="lazy">
+			</a>
+			<a href="<?php echo esc_url( home_url( '/servicios/' ) ); ?>" class="promo-ad">
+				<img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/promo-corte-laser-metacrilato.jpg' ) ); ?>" alt="Corte láser de metacrilato: precisión que se ve, calidad que dura." loading="lazy">
+			</a>
+		</div>
+	</section>
+
 	<?php while ( have_posts() ) : the_post(); ?>
 		<section class="intro">
 			<?php the_content(); ?>
@@ -75,12 +94,6 @@
 			</div>
 		</section>
 	<?php endif; ?>
-
-	<section class="partner-promo">
-		<a href="https://vitrinas.net" target="_blank" rel="noopener">
-			<img class="partner-promo-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/vitrinas-banner.jpg' ) ); ?>" alt="Vitrinas.net – Tus colecciones, en el lugar que merecen. Vitrinas de metacrilato a medida." loading="lazy">
-		</a>
-	</section>
 
 	<section class="cta-band">
 		<h2>¿Tienes un proyecto en mente?</h2>
