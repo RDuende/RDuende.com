@@ -243,14 +243,6 @@ button[type="submit"] {
 	margin: 0;
 }
 
-.services-banner {
-	display: block;
-	width: 100%;
-	height: auto;
-	border-radius: 16px;
-	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
-}
-
 .services-grid .service-card {
 	background: var(--rduende-card-bg);
 	border: 1px solid var(--rduende-border);
@@ -281,6 +273,14 @@ button[type="submit"] {
 	display: block;
 	font-size: 2rem;
 	margin-bottom: 0.75rem;
+}
+
+.service-icon-img {
+	display: block;
+	width: 72px;
+	height: 72px;
+	margin-bottom: 0.75rem;
+	border-radius: 50%;
 }
 
 .clients-list {

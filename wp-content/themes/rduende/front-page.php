@@ -20,7 +20,38 @@
 
 	<section class="services-teaser">
 		<h2 class="section-title">Nuestros servicios</h2>
-		<img class="services-banner" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/services-banner.svg' ) ); ?>" alt="Servicios de RDuende: impresión de gran formato, rotulación de vehículos, corte láser, estampación de camisetas, letras corpóreas y artículos publicitarios" width="1200" height="520" loading="lazy">
+		<ul class="services-grid">
+			<li class="service-card">
+				<img class="service-icon-img" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-impresion-gran-formato.png' ) ); ?>" alt="" loading="lazy">
+				<strong>Impresión de gran formato</strong>
+				<p>Vinilos, lonas, cartelería, rollups y rótulos.</p>
+			</li>
+			<li class="service-card">
+				<img class="service-icon-img" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-rotulacion-vinilos.png' ) ); ?>" alt="" loading="lazy">
+				<strong>Rotulaciones de vehículos y empresas</strong>
+				<p>Comunicación visual en movimiento para tu marca.</p>
+			</li>
+			<li class="service-card">
+				<img class="service-icon-img" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-corte-laser.png' ) ); ?>" alt="" loading="lazy">
+				<strong>Corte y grabado láser</strong>
+				<p>Precisión en madera, metacrilato y metal.</p>
+			</li>
+			<li class="service-card">
+				<img class="service-icon-img" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-textil-sublimacion.png' ) ); ?>" alt="" loading="lazy">
+				<strong>Estampación de camisetas deportivas</strong>
+				<p>Diseños duraderos y personalizados para equipos.</p>
+			</li>
+			<li class="service-card">
+				<img class="service-icon-img" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-letras-corporeas.png' ) ); ?>" alt="" loading="lazy">
+				<strong>Letras corpóreas</strong>
+				<p>Volumen y elegancia para dar visibilidad a tu marca.</p>
+			</li>
+			<li class="service-card">
+				<img class="service-icon-img" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-articulos-promocionales.png' ) ); ?>" alt="" loading="lazy">
+				<strong>Artículos publicitarios</strong>
+				<p>Tazas, bolígrafos, mochilas y más, personalizados.</p>
+			</li>
+		</ul>
 		<a class="section-link" href="<?php echo esc_url( home_url( '/servicios/' ) ); ?>">Ver todos los servicios &rarr;</a>
 	</section>
 
