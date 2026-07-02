@@ -1,0 +1,54 @@
+/*
+Theme Name: RDuende
+Description: Tema personalizado para RDuende.com
+Author: RDuende
+Version: 0.1.0
+*/
+
+body {
+	margin: 0;
+	font-family: system-ui, sans-serif;
+	color: #222;
+	line-height: 1.6;
+}
+
+.site-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 2rem;
+	border-bottom: 1px solid #eee;
+}
+
+.site-title {
+	font-size: 1.25rem;
+	font-weight: bold;
+	text-decoration: none;
+	color: inherit;
+}
+
+.site-header nav ul {
+	display: flex;
+	gap: 1.5rem;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.site-header nav a {
+	text-decoration: none;
+	color: inherit;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+footer {
+	text-align: center;
+	padding: 1.5rem;
+	color: #777;
+	font-size: 0.875rem;
+}
