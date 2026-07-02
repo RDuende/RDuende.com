@@ -5,11 +5,36 @@ Author: RDuende
 Version: 0.1.0
 */
 
+:root {
+	--rduende-primary: #b3452e;
+	--rduende-dark: #1f1a17;
+	--rduende-bg: #fdfaf7;
+}
+
 body {
 	margin: 0;
 	font-family: system-ui, sans-serif;
-	color: #222;
+	color: var(--rduende-dark);
+	background: var(--rduende-bg);
 	line-height: 1.6;
+}
+
+a {
+	color: var(--rduende-primary);
+}
+
+.button {
+	display: inline-block;
+	padding: 0.6rem 1.4rem;
+	background: var(--rduende-primary);
+	color: #fff;
+	border-radius: 4px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.button:hover {
+	opacity: 0.9;
 }
 
 .site-header {
@@ -71,6 +96,36 @@ main {
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 2rem;
+}
+
+.hero {
+	text-align: center;
+	padding: 3rem 1rem;
+}
+
+.hero-title {
+	font-size: 2.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.hero-subtitle {
+	font-size: 1.1rem;
+	color: #6b6b6b;
+}
+
+.services-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 1.5rem;
+	list-style: none;
+	padding: 0;
+}
+
+.services-grid .service-card {
+	background: #fff;
+	border: 1px solid #eee;
+	border-radius: 8px;
+	padding: 1.25rem;
 }
 
 footer {
