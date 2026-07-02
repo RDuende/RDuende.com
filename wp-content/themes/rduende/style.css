@@ -118,40 +118,36 @@ main {
 	padding: 3rem 1rem;
 }
 
-.hero--brand {
-	padding: 4.5rem 1.5rem 5.5rem;
-	background: linear-gradient(135deg, #1a6fb0 0%, #2ea86b 28%, #f5a623 55%, #e0522f 78%, #7a2d8c 100%);
-	color: #fff;
+.hero--image {
+	padding: 0;
+	background: #0a0a12;
 }
 
-.hero-logo {
-	width: 140px;
+.hero-image {
+	display: block;
+	width: 100%;
 	height: auto;
-	margin-bottom: 1.5rem;
-	filter: drop-shadow(0 8px 20px rgba(0, 0, 0, 0.25));
 }
 
-.hero-title {
-	font-size: 3rem;
-	margin: 0 0 0.5rem;
-	text-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
-}
-
-.hero-subtitle {
-	font-size: 1.25rem;
-	margin: 0 0 2rem;
-	opacity: 0.95;
-}
-
-.hero--brand .hero-subtitle {
-	color: #fff;
-}
-
-.hero-actions {
+.hero-cta-bar {
 	display: flex;
 	gap: 1rem;
 	justify-content: center;
+	align-items: center;
 	flex-wrap: wrap;
+	padding: 1.5rem;
+	background: #0a0a12;
+}
+
+.hero-contact-link {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 600;
+	opacity: 0.85;
+}
+
+.hero-contact-link:hover {
+	opacity: 1;
 }
 
 .intro {

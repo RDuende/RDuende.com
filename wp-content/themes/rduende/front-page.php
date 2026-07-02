@@ -2,15 +2,13 @@
 
 <?php if ( is_front_page() && ! is_home() ) : ?>
 
-	<section class="hero hero--brand">
-		<img class="hero-logo" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/logo.png' ) ); ?>" alt="<?php bloginfo( 'name' ); ?>">
-		<h1 class="hero-title"><?php bloginfo( 'name' ); ?></h1>
-		<?php if ( get_bloginfo( 'description' ) ) : ?>
-			<p class="hero-subtitle"><?php bloginfo( 'description' ); ?></p>
-		<?php endif; ?>
-		<div class="hero-actions">
+	<section class="hero hero--image">
+		<img class="hero-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero.jpg' ) ); ?>" alt="RDuende – Convertimos tus ideas en impacto visual. Impresión de gran formato, rotulación y vinilos, letras corpóreas, corte y grabado láser, textil y sublimación, artículos promocionales, diseño gráfico, DTF, señalética y producción integral." width="1600" height="854" loading="eager">
+		<div class="hero-cta-bar">
 			<a class="button" href="<?php echo esc_url( home_url( '/servicios/' ) ); ?>">Ver servicios</a>
 			<a class="button button--ghost" href="<?php echo esc_url( home_url( '/contacto/' ) ); ?>">Contáctanos</a>
+			<a class="hero-contact-link" href="tel:+34968626506">968 62 65 06</a>
+			<a class="hero-contact-link" href="mailto:info@rduende.com">info@rduende.com</a>
 		</div>
 	</section>
 
