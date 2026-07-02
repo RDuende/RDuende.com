@@ -43,16 +43,7 @@
 				<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-diseno-grafico.jpg' ) ); ?>" alt="Diseño gráfico: imagen, creatividad y comunicación" loading="lazy">
 			</li>
 			<li class="service-card">
-				<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-senaletica.jpg' ) ); ?>" alt="Señalética: interior, exterior y corporativa" loading="lazy">
-			</li>
-			<li class="service-card">
-				<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-expositores-stands.jpg' ) ); ?>" alt="Expositores y stands: eventos, ferias y promociones" loading="lazy">
-			</li>
-			<li class="service-card">
 				<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-impresion-digital.jpg' ) ); ?>" alt="Impresión digital: tarjetas, folletos, catálogos y más" loading="lazy">
-			</li>
-			<li class="service-card">
-				<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-instalacion-profesional.jpg' ) ); ?>" alt="Instalación profesional: experiencia, calidad y garantía" loading="lazy">
 			</li>
 		</ul>
 		<a class="section-link" href="<?php echo esc_url( home_url( '/servicios/' ) ); ?>">Ver todos los servicios &rarr;</a>
