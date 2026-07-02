@@ -10,7 +10,12 @@ set -e
 
 WP="wp --allow-root"
 
-INICIO_ID=$($WP post create --post_type=page --post_title="Inicio" --post_status=publish --post_content='<p>En un mundo donde la primera impresión lo es todo, transformamos tus ideas en piezas gráficas que inspiran, comunican y dejan huella.</p><p><strong>Tu idea, nuestro arte. ¡Descubre cómo podemos hacerla realidad!</strong></p><p><a class="button" href="/servicios/">Conócenos</a></p><h2>Confían en nosotros</h2><p>Eviosys, LINASA, Primafrio, GKS Trucks, Grúas Gil, Autocares Molina, Ecoembes, Aguas de Murcia.</p>' --porcelain)
+# Elimina el post y la página de muestra que WordPress crea en cada instalación nueva,
+# para que no compitan con el contenido real (p.ej. en la sección "Proyecto destacado").
+$WP post delete 1 --force > /dev/null 2>&1 || true
+$WP post delete 2 --force > /dev/null 2>&1 || true
+
+INICIO_ID=$($WP post create --post_type=page --post_title="Inicio" --post_status=publish --post_content='<p>En un mundo donde la primera impresión lo es todo, transformamos tus ideas en piezas gráficas que inspiran, comunican y dejan huella.</p>' --porcelain)
 
 SERVICIOS_ID=$($WP post create --post_type=page --post_title="Servicios" --post_status=publish --post_content='<ul class="services-grid">
 <li class="service-card"><strong>Impresión de gran formato</strong><p>Vinilos, lonas, cartelería, rollups y rótulos.</p></li>
