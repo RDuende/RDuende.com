@@ -16,3 +16,17 @@ function rduende_enqueue_assets() {
 	wp_enqueue_style( 'rduende-style', get_stylesheet_uri(), array(), '0.1.0' );
 }
 add_action( 'wp_enqueue_scripts', 'rduende_enqueue_assets' );
+
+function rduende_widgets_init() {
+	register_sidebar(
+		array(
+			'name'          => __( 'Sidebar', 'rduende' ),
+			'id'            => 'sidebar-1',
+			'before_widget' => '<section class="widget">',
+			'after_widget'  => '</section>',
+			'before_title'  => '<h3 class="widget-title">',
+			'after_title'   => '</h3>',
+		)
+	);
+}
+add_action( 'widgets_init', 'rduende_widgets_init' );

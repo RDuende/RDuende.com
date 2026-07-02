@@ -40,7 +40,34 @@ body {
 	color: inherit;
 }
 
+.content-wrap {
+	display: flex;
+	gap: 2rem;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 2rem;
+	align-items: flex-start;
+}
+
 main {
+	flex: 1;
+	min-width: 0;
+}
+
+.sidebar {
+	flex: 0 0 260px;
+}
+
+.sidebar .widget {
+	margin-bottom: 1.5rem;
+}
+
+.sidebar .widget-title {
+	font-size: 1rem;
+	margin-bottom: 0.5rem;
+}
+
+.front-page {
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 2rem;
