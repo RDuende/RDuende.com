@@ -7,6 +7,15 @@
 </head>
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-<header>
-	<h2><?php bloginfo( 'name' ); ?></h2>
+<header class="site-header">
+	<a class="site-title" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
+	<?php
+	wp_nav_menu(
+		array(
+			'theme_location' => 'primary',
+			'container'      => 'nav',
+			'fallback_cb'    => false,
+		)
+	);
+	?>
 </header>
