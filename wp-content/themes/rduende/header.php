@@ -8,7 +8,9 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <header class="site-header">
-	<a class="site-title" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
+	<a class="site-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>">
+		<img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/logo-header.png' ) ); ?>" alt="<?php bloginfo( 'name' ); ?>" width="60" height="60">
+	</a>
 	<?php
 	wp_nav_menu(
 		array(

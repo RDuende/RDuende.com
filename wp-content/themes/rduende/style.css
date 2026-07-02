@@ -45,11 +45,15 @@ a {
 	border-bottom: 1px solid #eee;
 }
 
-.site-title {
-	font-size: 1.25rem;
-	font-weight: bold;
-	text-decoration: none;
-	color: inherit;
+.site-logo {
+	display: block;
+	line-height: 0;
+}
+
+.site-logo img {
+	display: block;
+	height: 60px;
+	width: auto;
 }
 
 .site-header nav ul {
