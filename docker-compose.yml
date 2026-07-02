@@ -1,0 +1,31 @@
+services:
+  wordpress:
+    image: wordpress:latest
+    ports:
+      - "8080:80"
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: ${WORDPRESS_DB_PASSWORD}
+      WORDPRESS_DB_NAME: wordpress
+    volumes:
+      - ./wp-content/themes/rduende:/var/www/html/wp-content/themes/rduende
+      - wordpress_data:/var/www/html
+    depends_on:
+      - db
+    restart: unless-stopped
+
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: ${WORDPRESS_DB_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+    volumes:
+      - db_data:/var/lib/mysql
+    restart: unless-stopped
+
+volumes:
+  wordpress_data:
+  db_data:
