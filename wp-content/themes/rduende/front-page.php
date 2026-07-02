@@ -20,7 +20,26 @@
 
 	<section class="services-teaser">
 		<h2 class="section-title">Nuestros servicios</h2>
-		<img class="services-banner" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/services-banner.svg' ) ); ?>" alt="Servicios de RDuende: impresión de gran formato, rotulación de vehículos, corte láser, estampación de camisetas, letras corpóreas y artículos publicitarios" width="1200" height="520" loading="lazy">
+		<ul class="services-grid">
+			<li class="service-card">
+				<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-impresion-gran-formato.jpg' ) ); ?>" alt="Impresión de gran formato: vallas, lonas, carteles y papeles" loading="lazy">
+			</li>
+			<li class="service-card">
+				<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-rotulacion-vinilos.jpg' ) ); ?>" alt="Rotulación y vinilos: vehículos, escaparates y fachadas" loading="lazy">
+			</li>
+			<li class="service-card">
+				<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-corte-laser.jpg' ) ); ?>" alt="Corte y grabado láser: madera, metacrilato y metal" loading="lazy">
+			</li>
+			<li class="service-card">
+				<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-textil-sublimacion.jpg' ) ); ?>" alt="Textil y sublimación: camisetas, ropa laboral y personalización" loading="lazy">
+			</li>
+			<li class="service-card">
+				<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-letras-corporeas.jpg' ) ); ?>" alt="Letras corpóreas: 3D, luminosas o sin luz" loading="lazy">
+			</li>
+			<li class="service-card">
+				<img class="service-card-image" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/icons/icon-articulos-promocionales.jpg' ) ); ?>" alt="Artículos promocionales: regalos, merchandising y empresas" loading="lazy">
+			</li>
+		</ul>
 		<a class="section-link" href="<?php echo esc_url( home_url( '/servicios/' ) ); ?>">Ver todos los servicios &rarr;</a>
 	</section>
 
