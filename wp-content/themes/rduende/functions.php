@@ -36,17 +36,3 @@ function rduende_service_url( $slug ) {
 	);
 	return $pages ? home_url( '/?page_id=' . $pages[0]->ID ) : home_url( '/servicios/' );
 }
-
-function rduende_widgets_init() {
-	register_sidebar(
-		array(
-			'name'          => __( 'Sidebar', 'rduende' ),
-			'id'            => 'sidebar-1',
-			'before_widget' => '<section class="widget">',
-			'after_widget'  => '</section>',
-			'before_title'  => '<h3 class="widget-title">',
-			'after_title'   => '</h3>',
-		)
-	);
-}
-add_action( 'widgets_init', 'rduende_widgets_init' );

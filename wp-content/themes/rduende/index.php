@@ -1,19 +1,15 @@
 <?php get_header(); ?>
 
-<div class="content-wrap">
-	<main>
-		<?php
-		if ( have_posts() ) {
-			while ( have_posts() ) {
-				the_post();
-				the_title( '<h1>', '</h1>' );
-				the_content();
-			}
+<main class="content-wrap">
+	<?php
+	if ( have_posts() ) {
+		while ( have_posts() ) {
+			the_post();
+			the_title( '<h1>', '</h1>' );
+			the_content();
 		}
-		?>
-	</main>
-
-	<?php get_sidebar(); ?>
-</div>
+	}
+	?>
+</main>
 
 <?php get_footer(); ?>
