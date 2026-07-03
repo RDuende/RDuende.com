@@ -36,23 +36,24 @@ $services = array(
 		'alt'     => 'Impresión de gran formato: vallas, lonas, carteles y papeles',
 		'content' => <<<'HTML'
 <img src="/wp-content/themes/rduende/assets/images/icons/icon-impresion-gran-formato.jpg" alt="Impresión de gran formato" class="service-page-image">
-<p>Producimos vinilos, lonas, carteles, rollups y papel de gran formato con la máxima calidad de color, ideales para vallas publicitarias, escaparates y campañas que necesitan impacto visual a gran escala.</p>
+<p>Producimos vinilos, lonas, carteles, rollups y papel de gran formato con la máxima calidad de color, ideales para vallas publicitarias, escaparates y campañas que necesitan impacto visual a gran escala. Trabajamos tanto piezas puntuales como campañas completas para varios puntos de venta, cuidando que el color y el acabado sean idénticos en todas las unidades.</p>
 
 <h2>Tecnología y materiales</h2>
 <ul class="service-tech">
-<li><strong>Impresión digital de gran formato (UV y eco-solvente):</strong> para interiores y exteriores, resistente a la intemperie.</li>
-<li><strong>Vinilos autoadhesivos y microperforados:</strong> ideales para escaparates, vehículos y superficies curvas.</li>
-<li><strong>Lonas de PVC y banners:</strong> con ojales y refuerzos para vallas y exteriores.</li>
-<li><strong>Papel fotográfico y sintético:</strong> para carteles y puntos de venta.</li>
+<li><strong>Impresión digital de gran formato (UV y eco-solvente):</strong> para interiores y exteriores, resistente a la intemperie, la abrasión y la exposición prolongada al sol sin perder intensidad de color.</li>
+<li><strong>Vinilos autoadhesivos y microperforados:</strong> ideales para escaparates, vehículos y superficies curvas; se adaptan a esquinas y relieves sin burbujas ni levantamientos con el tiempo.</li>
+<li><strong>Lonas de PVC y banners:</strong> con ojales, dobladillos reforzados y opción de ventilada (microperforada) para vallas y soportes expuestos al viento.</li>
+<li><strong>Papel fotográfico y sintético:</strong> para carteles y puntos de venta, con acabado mate o brillo según el efecto que busques.</li>
+<li><strong>Laminado de protección:</strong> añade una capa extra de resistencia a rayones y humedad en piezas que van a manipularse o exponerse a la intemperie.</li>
 </ul>
 
 <h2>Nuestra metodología</h2>
 <ol class="service-methodology">
-<li><strong>Consulta y medición:</strong> analizamos el espacio y el soporte.</li>
-<li><strong>Diseño y maquetación:</strong> adaptamos tu diseño al formato final, revisando resolución y sangrados.</li>
-<li><strong>Prueba de color:</strong> verificamos tonos antes de la producción final.</li>
-<li><strong>Impresión y acabado:</strong> corte, laminado y refuerzos según el uso.</li>
-<li><strong>Entrega o instalación:</strong> colocación en sitio si se requiere.</li>
+<li><strong>Consulta y medición:</strong> analizamos el espacio y el soporte, y te asesoramos sobre el material más adecuado según la ubicación (interior/exterior) y la distancia de visionado.</li>
+<li><strong>Diseño y maquetación:</strong> adaptamos tu diseño al formato final, revisando resolución, sangrados y áreas de seguridad para que nada quede cortado.</li>
+<li><strong>Prueba de color:</strong> verificamos tonos antes de la producción final, especialmente importante en logotipos con colores corporativos exactos.</li>
+<li><strong>Impresión y acabado:</strong> corte, laminado y refuerzos según el uso, con control de calidad pieza por pieza.</li>
+<li><strong>Entrega o instalación:</strong> colocación en sitio si se requiere, o embalaje reforzado para que llegue en perfecto estado si prefieres instalarlo tú mismo.</li>
 </ol>
 
 <h2>Galería</h2>
@@ -77,23 +78,24 @@ HTML,
 		'alt'     => 'Rotulación y vinilos: vehículos, escaparates y fachadas',
 		'content' => <<<'HTML'
 <img src="/wp-content/themes/rduende/assets/images/icons/icon-rotulacion-vinilos.jpg" alt="Rotulación de vehículos y empresas" class="service-page-image">
-<p>Convertimos tu flota y tus espacios en herramientas de comunicación: rotulación de vehículos, escaparates y fachadas con vinilos de corte e impresión digital de alta durabilidad.</p>
+<p>Convertimos tu flota y tus espacios en herramientas de comunicación: rotulación de vehículos, escaparates y fachadas con vinilos de corte e impresión digital de alta durabilidad. Cada vehículo o local rotulado se convierte en publicidad en movimiento o en un punto de venta que refuerza tu marca las 24 horas.</p>
 
 <h2>Tecnología y materiales</h2>
 <ul class="service-tech">
-<li><strong>Vinilo de corte:</strong> para logotipos y textos precisos.</li>
-<li><strong>Impresión digital + laminado:</strong> diseños a todo color con protección UV.</li>
-<li><strong>Vinilo microperforado (one-way vision):</strong> para lunas y escaparates sin perder visibilidad interior.</li>
-<li><strong>Instalación con cámara plana:</strong> montaje sin burbujas ni pliegues.</li>
+<li><strong>Vinilo de corte:</strong> para logotipos y textos precisos, sin marco ni fondo, directamente sobre la carrocería o el cristal.</li>
+<li><strong>Impresión digital + laminado:</strong> diseños a todo color con protección UV, ideales para rotulaciones completas o parciales con imágenes y degradados.</li>
+<li><strong>Vinilo microperforado (one-way vision):</strong> para lunas y escaparates sin perder visibilidad interior; se ve el anuncio desde fuera y la calle desde dentro.</li>
+<li><strong>Vinilo mate, brillo y efecto cromado o carbono:</strong> acabados especiales para vehículos que buscan un aspecto más premium o deportivo.</li>
+<li><strong>Instalación con cámara plana:</strong> montaje sin burbujas ni pliegues, con termosoplado en zonas curvas para un acabado profesional.</li>
 </ul>
 
 <h2>Nuestra metodología</h2>
 <ol class="service-methodology">
-<li><strong>Visita o fotos del vehículo/espacio:</strong> para tomar medidas exactas.</li>
-<li><strong>Diseño a medida:</strong> adaptado a la carrocería o fachada.</li>
-<li><strong>Impresión y laminado:</strong> materiales resistentes a la intemperie y el lavado.</li>
-<li><strong>Instalación profesional:</strong> por técnicos especializados.</li>
-<li><strong>Revisión final:</strong> comprobamos acabado y durabilidad.</li>
+<li><strong>Visita o fotos del vehículo/espacio:</strong> para tomar medidas exactas y detectar particularidades (remaches, molduras, curvas pronunciadas).</li>
+<li><strong>Diseño a medida:</strong> adaptado a la carrocería o fachada, con una previsualización para que apruebes el resultado antes de producir.</li>
+<li><strong>Impresión y laminado:</strong> materiales resistentes a la intemperie, los lavados a presión y la radiación solar.</li>
+<li><strong>Instalación profesional:</strong> por técnicos especializados, en taller o a domicilio según el proyecto.</li>
+<li><strong>Revisión final:</strong> comprobamos acabado, adherencia en los bordes y durabilidad antes de la entrega.</li>
 </ol>
 
 <h2>Galería</h2>
@@ -119,23 +121,24 @@ HTML,
 		'alt'     => 'Corte y grabado láser: madera, metacrilato y metal',
 		'content' => <<<'HTML'
 <img src="/wp-content/themes/rduende/assets/images/icons/icon-corte-laser.jpg" alt="Corte y grabado láser" class="service-page-image">
-<p>Precisión milimétrica en madera, metacrilato y metal. Ideal para piezas personalizadas, señalética, expositores y proyectos que requieren acabados exactos.</p>
+<p>Precisión milimétrica en madera, metacrilato y metal. Ideal para piezas personalizadas, señalética, expositores y proyectos que requieren acabados exactos. Desde una única pieza para un regalo especial hasta series completas para eventos o producción, ajustamos el proceso a la escala de cada encargo.</p>
 
 <h2>Tecnología y materiales</h2>
 <ul class="service-tech">
-<li><strong>Corte láser CO2:</strong> para madera, metacrilato, papel y textiles.</li>
-<li><strong>Grabado láser de precisión:</strong> personaliza con nombres, logotipos o textos.</li>
-<li><strong>Corte de precisión en metal:</strong> para piezas y letras metálicas.</li>
-<li><strong>Diseño vectorial a medida:</strong> cada pieza se prepara digitalmente antes del corte.</li>
+<li><strong>Corte láser CO2:</strong> para madera, metacrilato, papel y textiles, con cortes limpios sin astillado ni rebabas.</li>
+<li><strong>Grabado láser de precisión:</strong> personaliza con nombres, logotipos o textos, incluso en degradados de profundidad para efectos 3D en la superficie.</li>
+<li><strong>Corte de precisión en metal:</strong> para piezas y letras metálicas que requieren un acabado industrial y gran durabilidad.</li>
+<li><strong>Diseño vectorial a medida:</strong> cada pieza se prepara digitalmente antes del corte, optimizando el trazado para reducir tiempos y desperdicio de material.</li>
+<li><strong>Combinación de materiales:</strong> podemos combinar metacrilato transparente y de color, madera y metal en la misma pieza para composiciones más elaboradas.</li>
 </ul>
 
 <h2>Nuestra metodología</h2>
 <ol class="service-methodology">
-<li><strong>Recepción del diseño o boceto:</strong> tuyo o creado por nuestro equipo.</li>
-<li><strong>Preparación vectorial:</strong> ajustamos el archivo para corte y grabado.</li>
-<li><strong>Prueba de material:</strong> comprobamos el acabado en una muestra si el proyecto lo requiere.</li>
-<li><strong>Corte y grabado:</strong> con control de precisión milimétrica.</li>
-<li><strong>Acabado y entrega:</strong> pulido de bordes y embalaje seguro.</li>
+<li><strong>Recepción del diseño o boceto:</strong> tuyo, o lo creamos desde cero junto a nuestro equipo de diseño gráfico.</li>
+<li><strong>Preparación vectorial:</strong> ajustamos el archivo para corte y grabado, definiendo qué líneas se cortan y cuáles solo se graban.</li>
+<li><strong>Prueba de material:</strong> comprobamos el acabado en una muestra si el proyecto lo requiere, sobre todo en grabados con degradado o piezas grandes.</li>
+<li><strong>Corte y grabado:</strong> con control de precisión milimétrica y supervisión continua durante el proceso.</li>
+<li><strong>Acabado y entrega:</strong> pulido de bordes, retirada de film protector y embalaje seguro para que llegue sin marcas.</li>
 </ol>
 
 <h2>Galería</h2>
@@ -161,23 +164,24 @@ HTML,
 		'alt'     => 'Textil y sublimación: camisetas, ropa laboral y personalización',
 		'content' => <<<'HTML'
 <img src="/wp-content/themes/rduende/assets/images/icons/icon-textil-sublimacion.jpg" alt="Estampación de camisetas deportivas" class="service-page-image">
-<p>Personalizamos camisetas, ropa laboral y textil deportivo con técnicas de sublimación y estampación duraderas, perfectas para equipos y empresas.</p>
+<p>Personalizamos camisetas, ropa laboral y textil deportivo con técnicas de sublimación y estampación duraderas, perfectas para equipos y empresas. Ya sea la equipación completa de un club, camisetas de un evento o uniformes corporativos, adaptamos la técnica al tejido y al uso que le vas a dar.</p>
 
 <h2>Tecnología y materiales</h2>
 <ul class="service-tech">
-<li><strong>Sublimación textil:</strong> la tinta se integra en la fibra, ideal para poliéster y equipaciones deportivas.</li>
-<li><strong>DTF (Direct to Film):</strong> estampación de alta definición sobre algodón y mezclas.</li>
-<li><strong>Vinilo textil de corte:</strong> para nombres y números individuales.</li>
-<li><strong>Serigrafía:</strong> para pedidos de grandes cantidades.</li>
+<li><strong>Sublimación textil:</strong> la tinta se integra en la fibra, ideal para poliéster y equipaciones deportivas; el diseño no se agrieta ni se despega con el uso.</li>
+<li><strong>DTF (Direct to Film):</strong> estampación de alta definición sobre algodón y mezclas, con colores vivos y buena resistencia al lavado.</li>
+<li><strong>Vinilo textil de corte:</strong> para nombres y números individuales, con acabado mate, brillo o flock según el efecto deseado.</li>
+<li><strong>Serigrafía:</strong> para pedidos de grandes cantidades, la opción más económica cuando se repite el mismo diseño en muchas unidades.</li>
+<li><strong>Bordado:</strong> para logotipos que requieren un acabado más premium y duradero, típico en ropa laboral y polos corporativos.</li>
 </ul>
 
 <h2>Nuestra metodología</h2>
 <ol class="service-methodology">
-<li><strong>Elección de la prenda y técnica:</strong> según tejido y cantidad.</li>
-<li><strong>Diseño y prueba de color:</strong> ajustamos el diseño al patrón de la prenda.</li>
-<li><strong>Producción:</strong> sublimación, DTF o serigrafía según el proyecto.</li>
-<li><strong>Control de calidad:</strong> revisamos cada prenda antes de entregar.</li>
-<li><strong>Entrega:</strong> por unidad o en lotes para equipos y empresas.</li>
+<li><strong>Elección de la prenda y técnica:</strong> según tejido, cantidad y presupuesto, te recomendamos la combinación que mejor resultado dará.</li>
+<li><strong>Diseño y prueba de color:</strong> ajustamos el diseño al patrón de la prenda, cuidando que quede centrado y proporcionado en cada talla.</li>
+<li><strong>Producción:</strong> sublimación, DTF, serigrafía o bordado según el proyecto y el volumen de pedido.</li>
+<li><strong>Control de calidad:</strong> revisamos cada prenda antes de entregar, comprobando colocación, colores y acabados.</li>
+<li><strong>Entrega:</strong> por unidad o en lotes para equipos y empresas, con opción de personalización individual (nombre y dorsal) dentro del mismo pedido.</li>
 </ol>
 
 <h2>Galería</h2>
@@ -203,23 +207,24 @@ HTML,
 		'alt'     => 'Letras corpóreas: 3D, luminosas o sin luz',
 		'content' => <<<'HTML'
 <img src="/wp-content/themes/rduende/assets/images/icons/icon-letras-corporeas.jpg" alt="Letras corpóreas" class="service-page-image">
-<p>Letras y logotipos en volumen, con o sin iluminación, para dar presencia y visibilidad a tu marca en fachadas, recepciones y puntos de venta.</p>
+<p>Letras y logotipos en volumen, con o sin iluminación, para dar presencia y visibilidad a tu marca en fachadas, recepciones y puntos de venta. Son una de las formas más efectivas de generar una primera impresión sólida y profesional, tanto de día como de noche si incorporan luz.</p>
 
 <h2>Tecnología y materiales</h2>
 <ul class="service-tech">
-<li><strong>PVC, metacrilato o metal:</strong> según el estilo y presupuesto del proyecto.</li>
-<li><strong>Iluminación LED integrada:</strong> backlit o frontlit, para visibilidad de día y de noche.</li>
-<li><strong>Corte y fresado de precisión:</strong> para acabados limpios y exactos.</li>
-<li><strong>Montaje con separadores:</strong> efecto de volumen sobre la pared.</li>
+<li><strong>PVC, metacrilato o metal:</strong> según el estilo y presupuesto del proyecto; el metal aporta un aspecto más corporativo y el metacrilato permite acabados translúcidos.</li>
+<li><strong>Iluminación LED integrada:</strong> backlit (luz hacia la pared, efecto halo) o frontlit (luz hacia fuera), para visibilidad de día y de noche con bajo consumo.</li>
+<li><strong>Corte y fresado de precisión:</strong> para acabados limpios y exactos, incluso en tipografías complejas o logotipos con formas irregulares.</li>
+<li><strong>Pintura y acabados especiales:</strong> lacados, efecto cepillado o cromado para letras metálicas que buscan un toque más distintivo.</li>
+<li><strong>Montaje con separadores:</strong> efecto de volumen sobre la pared, dejando una sombra que refuerza la sensación de profundidad.</li>
 </ul>
 
 <h2>Nuestra metodología</h2>
 <ol class="service-methodology">
-<li><strong>Diseño y elección de material:</strong> según ubicación e imagen de marca.</li>
-<li><strong>Fabricación de las letras:</strong> corte, fresado y, si aplica, instalación de LED.</li>
-<li><strong>Prueba de iluminación</strong> (si corresponde), antes de la instalación final.</li>
-<li><strong>Instalación in situ:</strong> con anclajes adecuados a cada superficie.</li>
-<li><strong>Revisión final:</strong> comprobamos nivelación, sujeción e iluminación.</li>
+<li><strong>Diseño y elección de material:</strong> según ubicación, imagen de marca y si se necesita o no iluminación.</li>
+<li><strong>Fabricación de las letras:</strong> corte, fresado y, si aplica, instalación de los módulos LED en el interior de cada letra.</li>
+<li><strong>Prueba de iluminación</strong> (si corresponde), comprobando uniformidad de luz y ausencia de puntos calientes antes de la instalación final.</li>
+<li><strong>Instalación in situ:</strong> con anclajes adecuados a cada superficie (fachada, cristal, pladur) y conexión eléctrica si incluyen luz.</li>
+<li><strong>Revisión final:</strong> comprobamos nivelación, sujeción e iluminación, y te explicamos el mantenimiento básico si lo necesitas.</li>
 </ol>
 
 <h2>Galería</h2>
@@ -244,23 +249,24 @@ HTML,
 		'alt'     => 'Artículos promocionales: regalos, merchandising y empresas',
 		'content' => <<<'HTML'
 <img src="/wp-content/themes/rduende/assets/images/icons/icon-articulos-promocionales.jpg" alt="Artículos publicitarios" class="service-page-image">
-<p>Tazas, bolígrafos, mochilas y merchandising personalizado con tu marca: el detalle perfecto para regalos corporativos y campañas promocionales.</p>
+<p>Tazas, bolígrafos, mochilas y merchandising personalizado con tu marca: el detalle perfecto para regalos corporativos y campañas promocionales. Un buen artículo promocional se usa durante meses o años, manteniendo tu marca presente mucho después del evento o la entrega.</p>
 
 <h2>Tecnología y materiales</h2>
 <ul class="service-tech">
-<li><strong>Impresión UV directa:</strong> sobre tazas, bolígrafos y superficies rígidas.</li>
-<li><strong>Sublimación:</strong> para tazas mágicas y textiles.</li>
-<li><strong>Grabado láser:</strong> sobre metal, madera y algunos plásticos.</li>
-<li><strong>Bordado y estampación textil:</strong> para mochilas, gorras y ropa promocional.</li>
+<li><strong>Impresión UV directa:</strong> sobre tazas, bolígrafos y superficies rígidas, con colores vivos y gran resistencia al uso diario.</li>
+<li><strong>Sublimación:</strong> para tazas mágicas (cambian de color con el calor) y textiles, con el diseño integrado en el propio material.</li>
+<li><strong>Grabado láser:</strong> sobre metal, madera y algunos plásticos; ideal para artículos más duraderos como bolígrafos metálicos o llaveros.</li>
+<li><strong>Bordado y estampación textil:</strong> para mochilas, gorras y ropa promocional, con acabado más resistente que la impresión directa.</li>
+<li><strong>Packaging personalizado:</strong> cajas o bolsas con tu marca para reforzar la experiencia de regalo, especialmente en kits de bienvenida.</li>
 </ul>
 
 <h2>Nuestra metodología</h2>
 <ol class="service-methodology">
-<li><strong>Selección del producto:</strong> según presupuesto y público objetivo.</li>
-<li><strong>Diseño de la marca en el artículo:</strong> ajustado al espacio disponible.</li>
-<li><strong>Prueba de muestra</strong> (en pedidos grandes), para validar antes de producir todo el lote.</li>
-<li><strong>Producción:</strong> según la técnica más adecuada al material.</li>
-<li><strong>Empaquetado y entrega:</strong> listo para eventos o campañas.</li>
+<li><strong>Selección del producto:</strong> según presupuesto, público objetivo y el mensaje que quieres transmitir.</li>
+<li><strong>Diseño de la marca en el artículo:</strong> ajustado al espacio disponible y a la técnica de personalización elegida.</li>
+<li><strong>Prueba de muestra</strong> (en pedidos grandes), para validar colores y colocación antes de producir todo el lote.</li>
+<li><strong>Producción:</strong> según la técnica más adecuada al material, con control de calidad en cada tanda.</li>
+<li><strong>Empaquetado y entrega:</strong> listo para eventos o campañas, con opción de envío directo a varias sedes o puntos de entrega.</li>
 </ol>
 
 <h2>Galería</h2>
@@ -285,23 +291,24 @@ HTML,
 		'alt'     => 'Diseño gráfico: imagen, creatividad y comunicación',
 		'content' => <<<'HTML'
 <img src="/wp-content/themes/rduende/assets/images/icons/icon-diseno-grafico.jpg" alt="Diseño gráfico" class="service-page-image">
-<p>Convertimos tus ideas en imágenes que comunican: diseño de marca, materiales gráficos y creatividad al servicio de tu proyecto.</p>
+<p>Convertimos tus ideas en imágenes que comunican: diseño de marca, materiales gráficos y creatividad al servicio de tu proyecto. Trabajamos codo a codo con producción, así que cada diseño que creamos ya está pensado para imprimirse o fabricarse sin sorpresas.</p>
 
 <h2>Tecnología y materiales</h2>
 <ul class="service-tech">
-<li><strong>Software profesional de diseño vectorial y edición de imagen:</strong> para máxima calidad de impresión.</li>
-<li><strong>Maquetación editorial:</strong> para catálogos, folletos y papelería corporativa.</li>
-<li><strong>Diseño adaptado a cada soporte:</strong> impreso o digital, gran formato o pequeño detalle.</li>
-<li><strong>Tipografías y recursos con licencia:</strong> para un resultado profesional y sin restricciones legales.</li>
+<li><strong>Software profesional de diseño vectorial y edición de imagen:</strong> para máxima calidad de impresión a cualquier escala, desde una tarjeta hasta una lona gigante.</li>
+<li><strong>Maquetación editorial:</strong> para catálogos, folletos y papelería corporativa, con una estructura clara y coherente en todas las páginas.</li>
+<li><strong>Diseño adaptado a cada soporte:</strong> impreso o digital, gran formato o pequeño detalle, teniendo en cuenta cómo y desde qué distancia se va a ver.</li>
+<li><strong>Tipografías y recursos con licencia:</strong> para un resultado profesional y sin restricciones legales de uso comercial.</li>
+<li><strong>Identidad de marca coherente:</strong> aplicamos tu paleta de colores, tipografías y estilo visual a cada pieza nueva para que todo tu material se vea como parte de la misma marca.</li>
 </ul>
 
 <h2>Nuestra metodología</h2>
 <ol class="service-methodology">
-<li><strong>Briefing:</strong> entendemos tu marca, objetivo y público.</li>
-<li><strong>Propuestas iniciales:</strong> bocetos o conceptos para elegir dirección.</li>
-<li><strong>Desarrollo del diseño:</strong> con revisiones y ajustes contigo.</li>
-<li><strong>Preparación para producción:</strong> archivos listos para imprimir o publicar.</li>
-<li><strong>Entrega de archivos finales:</strong> en los formatos que necesites.</li>
+<li><strong>Briefing:</strong> entendemos tu marca, objetivo y público antes de proponer nada.</li>
+<li><strong>Propuestas iniciales:</strong> bocetos o conceptos para elegir dirección, sin comprometernos aún al detalle final.</li>
+<li><strong>Desarrollo del diseño:</strong> con revisiones y ajustes contigo hasta llegar al resultado que buscas.</li>
+<li><strong>Preparación para producción:</strong> archivos listos para imprimir o publicar, con las especificaciones técnicas correctas (resolución, modo de color, sangrados).</li>
+<li><strong>Entrega de archivos finales:</strong> en los formatos que necesites, tanto para imprenta como para uso digital.</li>
 </ol>
 
 <h2>Galería</h2>
@@ -326,23 +333,24 @@ HTML,
 		'alt'     => 'Impresión digital: tarjetas, folletos, catálogos y más',
 		'content' => <<<'HTML'
 <img src="/wp-content/themes/rduende/assets/images/icons/icon-impresion-digital.jpg" alt="Impresión digital" class="service-page-image">
-<p>Tarjetas, folletos, catálogos y todo tipo de impresión digital de alta calidad, con tiempos de entrega rápidos.</p>
+<p>Tarjetas, folletos, catálogos y todo tipo de impresión digital de alta calidad, con tiempos de entrega rápidos. Perfecta para todo el material que necesita renovarse con frecuencia o adaptarse a tiradas cortas sin perder calidad profesional.</p>
 
 <h2>Tecnología y materiales</h2>
 <ul class="service-tech">
-<li><strong>Impresión digital offset y láser de alta resolución:</strong> para tirajes cortos y medios con calidad profesional.</li>
-<li><strong>Acabados especiales:</strong> plastificado, barniz UV, troquelado y esquinas redondeadas.</li>
-<li><strong>Papeles y gramajes variados:</strong> desde folletos ligeros hasta tarjetas de alta consistencia.</li>
-<li><strong>Impresión bajo demanda:</strong> sin necesidad de grandes tiradas mínimas.</li>
+<li><strong>Impresión digital offset y láser de alta resolución:</strong> para tirajes cortos y medios con calidad profesional, sin el coste de plancha del offset tradicional.</li>
+<li><strong>Acabados especiales:</strong> plastificado brillo o mate, barniz UV selectivo, troquelado a medida y esquinas redondeadas para un resultado más cuidado.</li>
+<li><strong>Papeles y gramajes variados:</strong> desde folletos ligeros hasta tarjetas de alta consistencia, con opciones estucadas, texturizadas o recicladas.</li>
+<li><strong>Impresión bajo demanda:</strong> sin necesidad de grandes tiradas mínimas, ideal si necesitas reimprimir solo cuando se acaba el stock.</li>
+<li><strong>Numeración y datos variables:</strong> para talonarios, entradas o materiales donde cada copia necesita un dato distinto (número, nombre, código).</li>
 </ul>
 
 <h2>Nuestra metodología</h2>
 <ol class="service-methodology">
-<li><strong>Revisión del archivo:</strong> comprobamos resolución, sangrados y colores.</li>
-<li><strong>Prueba digital</strong> (si se solicita), para validar antes de imprimir el lote completo.</li>
-<li><strong>Impresión:</strong> con el papel y acabado elegidos.</li>
-<li><strong>Acabados:</strong> corte, plastificado u otros procesos según el proyecto.</li>
-<li><strong>Entrega:</strong> recogida en tienda o envío.</li>
+<li><strong>Revisión del archivo:</strong> comprobamos resolución, sangrados y colores antes de aceptar el pedido.</li>
+<li><strong>Prueba digital</strong> (si se solicita), para validar colores y maquetación antes de imprimir el lote completo.</li>
+<li><strong>Impresión:</strong> con el papel y acabado elegidos, ajustando la máquina para ese gramaje y textura concretos.</li>
+<li><strong>Acabados:</strong> corte, plastificado u otros procesos según el proyecto, con control de medidas en cada pieza.</li>
+<li><strong>Entrega:</strong> recogida en tienda o envío, con opción de entregas urgentes si el proyecto lo requiere.</li>
 </ol>
 
 <h2>Galería</h2>
