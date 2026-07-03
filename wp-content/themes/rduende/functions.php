@@ -25,6 +25,18 @@ function rduende_enqueue_assets() {
 }
 add_action( 'wp_enqueue_scripts', 'rduende_enqueue_assets' );
 
+function rduende_service_url( $slug ) {
+	$pages = get_posts(
+		array(
+			'name'        => $slug,
+			'post_type'   => 'page',
+			'post_status' => 'publish',
+			'numberposts' => 1,
+		)
+	);
+	return $pages ? home_url( '/?page_id=' . $pages[0]->ID ) : home_url( '/servicios/' );
+}
+
 function rduende_widgets_init() {
 	register_sidebar(
 		array(
