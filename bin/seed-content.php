@@ -50,9 +50,21 @@ $services = array(
 <h2>Nuestra maquinaria</h2>
 <ul class="service-tech">
 <li><strong>Mimaki CJV150-160:</strong> plotter de impresión y corte eco-solvente que integra el corte de contorno en el mismo proceso, ideal para pegatinas, vinilos troquelados y rotulación con formas personalizadas.</li>
-<li><strong>HP Latex 120:</strong> impresora de tinta látex de HP, con colores vivos, sin olor y curado en la propia impresora, apta para interiores sin necesidad de laminado adicional en muchos usos.</li>
+<li><strong>HP Latex 120:</strong> impresora de tinta látex de HP, con colores vivos, sin olor y curado en la propia impresora, apta para interiores sin necesidad de laminado adicional en muchos usos. La tinta látex está certificada como apta para contacto con productos alimentarios, por lo que también podemos imprimir envases, expositores y señalización para el sector alimentario.</li>
 <li><strong>Impresora DTF (Direct to Film):</strong> transfiere diseños a todo color y con gran detalle sobre prácticamente cualquier tejido, incluido algodón, sin las limitaciones de la sublimación.</li>
 <li><strong>Mimaki UJV (UV rollo a rollo):</strong> impresión UV de curado instantáneo con tintas muy resistentes, capaz de crear efectos especiales (relieve, blanco de contraste, barniz) sobre una gran variedad de materiales rígidos y flexibles.</li>
+</ul>
+
+<h2>Materiales disponibles y usos recomendados</h2>
+<ul class="service-tech">
+<li><strong>Lona (banner PVC):</strong> el material más habitual para vallas publicitarias, banners de eventos, carpas y carteles de exterior de gran tamaño.</li>
+<li><strong>Lona microperforada:</strong> deja pasar el aire y reduce la carga de viento; ideal para cubrir andamios y fachadas en obra, o vallas de gran altura expuestas a rachas fuertes.</li>
+<li><strong>Vinilo microperforado (one-way vision):</strong> se ve el anuncio desde fuera sin perder visibilidad desde dentro; perfecto para escaparates, oficinas con cristaleras y lunas de vehículos.</li>
+<li><strong>Vinilo monomérico:</strong> económico y de fácil aplicación, pensado para promociones y campañas de corta duración (1-2 años) sobre superficies planas como escaparates o expositores puntuales.</li>
+<li><strong>Vinilo polimérico:</strong> más resistente y flexible que el monomérico, se adapta a superficies con ligeras curvas; adecuado para rotulación de furgonetas, fachadas y señalización con una vida útil de 5-7 años.</li>
+<li><strong>Vinilo de fundición (cast):</strong> el más duradero y conformable, capaz de ajustarse a curvas pronunciadas sin levantarse; la opción preferida para rotulación integral de vehículos y flotas que deben durar 7-10 años.</li>
+<li><strong>Laminado brillo:</strong> intensifica los colores y aporta un acabado vistoso, ideal para fotografías, gráficos impactantes y escaparates que buscan destacar.</li>
+<li><strong>Laminado mate:</strong> reduce reflejos y deslumbramientos, recomendado para espacios con mucha luz directa, pantallas informativas o piezas que se verán desde ángulos variados.</li>
 </ul>
 
 <h2>Nuestra metodología</h2>
