@@ -83,10 +83,13 @@ $services = array(
 
 <h2>Preguntas frecuentes</h2>
 <div class="service-faq">
-<details><summary>¿Qué materiales duran más en exterior?</summary><p>Los vinilos laminados y las lonas de PVC con protección UV son los que mejor resisten la intemperie durante años.</p></details>
-<details><summary>¿Puedo pedir un tamaño personalizado?</summary><p>Sí, trabajamos a medida según el espacio disponible.</p></details>
-<details><summary>¿Cuánto tarda un pedido?</summary><p>Depende del tamaño y acabado, pero la mayoría de pedidos están listos en pocos días.</p></details>
-<details><summary>¿Incluyen instalación?</summary><p>Sí, ofrecemos instalación profesional en vallas, escaparates y fachadas.</p></details>
+<details><summary>¿Qué materiales duran más en exterior?</summary><p>Los vinilos laminados, el vinilo de fundición y las lonas de PVC con protección UV son los que mejor resisten la intemperie, manteniendo el color durante varios años incluso con exposición solar directa. Para proyectos que van a estar muchos años a la intemperie, siempre recomendamos añadir laminado de protección.</p></details>
+<details><summary>¿Puedo pedir un tamaño personalizado?</summary><p>Sí, trabajamos a medida según el espacio disponible; no tenemos un catálogo cerrado de tamaños. Solo necesitamos las medidas exactas del hueco o soporte donde va a colocarse la pieza.</p></details>
+<details><summary>¿Cuánto tarda un pedido?</summary><p>Depende del tamaño, la cantidad y el acabado, pero la mayoría de pedidos están listos en pocos días laborables. Si necesitas algo con urgencia, dínoslo al pedir presupuesto y valoramos si podemos adelantarlo.</p></details>
+<details><summary>¿Incluyen instalación?</summary><p>Sí, ofrecemos instalación profesional en vallas, escaparates y fachadas con nuestro propio equipo. Si prefieres instalarlo tú, también preparamos la pieza con instrucciones y un embalaje que facilita el montaje.</p></details>
+<details><summary>¿Qué resolución debe tener mi archivo?</summary><p>Depende del tamaño final y la distancia de visionado: para piezas que se ven de cerca recomendamos alta resolución, mientras que en vallas o lonas muy grandes que se ven desde lejos basta con una resolución menor. Si no estás seguro, revisamos el archivo antes de producir y te avisamos si hay algún problema.</p></details>
+<details><summary>¿Podéis diseñar la pieza si no tengo el archivo listo?</summary><p>Sí, nuestro equipo de diseño gráfico puede crear la pieza desde cero o adaptar tu logotipo e imágenes al formato final que necesites.</p></details>
+<details><summary>¿Qué pasa si mi archivo no tiene suficiente calidad?</summary><p>Te lo indicamos antes de imprimir y te proponemos alternativas: rehacer la pieza vectorialmente, buscar una imagen de mayor resolución, o ajustar el diseño para que el resultado final sea correcto a pesar de la limitación.</p></details>
 </div>
 
 <p><a class="button" href="/contacto/">Pide presupuesto</a></p>
@@ -133,10 +136,13 @@ HTML,
 
 <h2>Preguntas frecuentes</h2>
 <div class="service-faq">
-<details><summary>¿La rotulación daña la pintura del vehículo?</summary><p>No, los vinilos de calidad son removibles sin dañar la pintura si se retiran correctamente.</p></details>
-<details><summary>¿Cuánto dura la rotulación?</summary><p>Entre 3 y 7 años según el material y las condiciones de uso.</p></details>
-<details><summary>¿Puedo rotular solo una parte del vehículo?</summary><p>Sí, ofrecemos desde rotulación parcial hasta el vehículo completo.</p></details>
-<details><summary>¿Trabajáis con flotas de varios vehículos?</summary><p>Sí, gestionamos proyectos de flota completa con el mismo diseño.</p></details>
+<details><summary>¿La rotulación daña la pintura del vehículo?</summary><p>No, los vinilos de calidad son removibles sin dañar la pintura si se retiran correctamente y dentro de su vida útil. El riesgo aparece sobre todo con vinilos de baja calidad o cuando se dejan demasiados años más allá de lo recomendado por el fabricante.</p></details>
+<details><summary>¿Cuánto dura la rotulación?</summary><p>Entre 3 y 7 años según el material y las condiciones de uso, y hasta 10 años con vinilo de fundición en piezas bien cuidadas. La exposición al sol, los lavados a presión frecuentes y el uso del vehículo (aparcamiento en calle vs. garaje) también influyen en la duración real.</p></details>
+<details><summary>¿Puedo rotular solo una parte del vehículo?</summary><p>Sí, ofrecemos desde rotulación parcial (solo el logo y los datos de contacto) hasta el vehículo completo con diseño fotográfico. La rotulación parcial es una opción habitual para reducir costes manteniendo la marca visible.</p></details>
+<details><summary>¿Trabajáis con flotas de varios vehículos?</summary><p>Sí, gestionamos proyectos de flota completa con el mismo diseño, coordinando las instalaciones para minimizar el tiempo que cada vehículo está parado.</p></details>
+<details><summary>¿Necesito reservar cita para la instalación?</summary><p>Sí, la instalación se hace con cita previa en nuestro taller para poder dedicarle el tiempo necesario sin prisas; para flotas grandes también valoramos desplazarnos a tus instalaciones.</p></details>
+<details><summary>¿Puedo lavar el vehículo con normalidad después de rotularlo?</summary><p>Sí, pero recomendamos esperar unos días tras la instalación antes del primer lavado, y evitar túneles de lavado muy agresivos o con cepillos duros, que pueden levantar los bordes del vinilo con el tiempo.</p></details>
+<details><summary>¿Podéis retirar una rotulación antigua antes de poner la nueva?</summary><p>Sí, ofrecemos el servicio de retirada del vinilo anterior y limpieza de restos de adhesivo antes de aplicar el nuevo diseño.</p></details>
 </div>
 
 <p><a class="button" href="/contacto/">Pide presupuesto</a></p>
@@ -191,10 +197,13 @@ HTML,
 
 <h2>Preguntas frecuentes</h2>
 <div class="service-faq">
-<details><summary>¿Qué materiales se pueden cortar con láser?</summary><p>Madera, metacrilato, cartón, papel y algunos metales finos.</p></details>
-<details><summary>¿Puedo grabar un nombre o logo?</summary><p>Sí, el grabado láser permite personalizar cualquier pieza con texto o imágenes.</p></details>
-<details><summary>¿Hacen piezas en serie?</summary><p>Sí, tanto piezas únicas como series de producción.</p></details>
-<details><summary>¿Cuál es el grosor máximo de metacrilato?</summary><p>Trabajamos con metacrilato de hasta varios centímetros de grosor, según el proyecto.</p></details>
+<details><summary>¿Qué materiales se pueden cortar con láser?</summary><p>Madera, metacrilato, cartón, papel, textiles y algunos metales finos con nuestro láser de fibra. Cada material tiene su propio ajuste de potencia y velocidad, así que si tienes dudas sobre uno en concreto, pregúntanos y te confirmamos si es viable.</p></details>
+<details><summary>¿Puedo grabar un nombre o logo?</summary><p>Sí, el grabado láser permite personalizar cualquier pieza con texto o imágenes, incluso con efectos de profundidad o sombreado en el propio material.</p></details>
+<details><summary>¿Hacen piezas en serie?</summary><p>Sí, tanto piezas únicas como series de producción; al ser un proceso digital, repetir la misma pieza cien veces es tan sencillo como hacerla una sola vez.</p></details>
+<details><summary>¿Cuál es el grosor máximo de metacrilato?</summary><p>Trabajamos con metacrilato de hasta varios centímetros de grosor, según el proyecto y la potencia necesaria para atravesarlo limpiamente sin quemar los bordes.</p></details>
+<details><summary>¿Puedo traer mi propio material para cortar?</summary><p>Sí, si el material es compatible con corte láser (madera, metacrilato, cartón, etc.) podemos trabajarlo; te confirmamos antes si el grosor y el tipo de material son aptos para nuestro equipo.</p></details>
+<details><summary>¿Hacéis el diseño si no tengo un boceto?</summary><p>Sí, nuestro equipo de diseño gráfico puede crear la pieza desde cero a partir de tu idea, o preparar vectorialmente un boceto o logo que ya tengas.</p></details>
+<details><summary>¿Cuánto tarda un pedido de vitrinas de vitrinas.net?</summary><p>Depende de las medidas y el volumen del pedido, pero al ser piezas cortadas a medida sobre nuestro propio láser, normalmente tenemos plazos más cortos que un fabricante estándar de vitrinas en catálogo cerrado.</p></details>
 </div>
 
 <p><a class="button" href="/contacto/">Pide presupuesto</a></p>
@@ -242,10 +251,13 @@ HTML,
 
 <h2>Preguntas frecuentes</h2>
 <div class="service-faq">
-<details><summary>¿Qué diferencia hay entre sublimación y DTF?</summary><p>La sublimación tiñe la fibra (ideal en poliéster), mientras que el DTF imprime sobre una película que se transfiere a cualquier tejido, incluido el algodón.</p></details>
-<details><summary>¿Puedo personalizar cada camiseta con un nombre distinto?</summary><p>Sí, es habitual en equipaciones deportivas con nombres y dorsales individuales.</p></details>
-<details><summary>¿Cuál es el pedido mínimo?</summary><p>Trabajamos tanto pedidos unitarios como grandes cantidades para equipos y empresas.</p></details>
-<details><summary>¿Los diseños aguantan lavados frecuentes?</summary><p>Sí, con el cuidado adecuado (lavado del revés, sin secadora) mantienen su color y calidad durante mucho tiempo.</p></details>
+<details><summary>¿Qué diferencia hay entre sublimación y DTF?</summary><p>La sublimación tiñe la fibra del propio tejido (ideal en poliéster y equipaciones deportivas), por lo que no se nota al tacto ni se agrieta. El DTF imprime sobre una película que se transfiere a cualquier tejido, incluido el algodón, y es la opción cuando la prenda no es de poliéster.</p></details>
+<details><summary>¿Puedo personalizar cada camiseta con un nombre distinto?</summary><p>Sí, es habitual en equipaciones deportivas con nombres y dorsales individuales; también lo hacemos en camisetas de despedidas, eventos o regalos con el nombre de cada persona.</p></details>
+<details><summary>¿Cuál es el pedido mínimo?</summary><p>Trabajamos tanto pedidos unitarios como grandes cantidades para equipos y empresas; para una sola camiseta la técnica más habitual es DTF o vinilo textil, mientras que la serigrafía se reserva para tiradas grandes por su coste de preparación.</p></details>
+<details><summary>¿Los diseños aguantan lavados frecuentes?</summary><p>Sí, con el cuidado adecuado (lavado del revés, agua fría o templada y sin secadora) mantienen su color y calidad durante mucho tiempo. La sublimación es la técnica que mejor resiste el lavado intensivo, típico en equipaciones que se usan cada semana.</p></details>
+<details><summary>¿Puedo llevar mis propias prendas para personalizar?</summary><p>Sí, puedes traer tus propias camisetas, sudaderas o gorras; eso sí, comprobamos antes que el tejido sea compatible con la técnica que quieras aplicar (por ejemplo, la sublimación solo funciona bien en poliéster claro).</p></details>
+<details><summary>¿Hacéis equipaciones deportivas completas?</summary><p>Sí, camiseta, pantalón y medias con el mismo diseño y numeración, además de la ropa de entrenamiento y las bolsas o petates del equipo si los necesitáis.</p></details>
+<details><summary>¿Tenéis tallas especiales (infantil, tallas grandes)?</summary><p>Sí, trabajamos con proveedores que cubren desde tallas infantiles hasta tallas grandes, para que todo el equipo o la familia puedan llevar el mismo diseño.</p></details>
 </div>
 
 <p><a class="button" href="/contacto/">Pide presupuesto</a></p>
@@ -291,10 +303,13 @@ HTML,
 
 <h2>Preguntas frecuentes</h2>
 <div class="service-faq">
-<details><summary>¿Las letras corpóreas se pueden iluminar?</summary><p>Sí, ofrecemos opciones con luz LED frontal o retroiluminada.</p></details>
-<details><summary>¿Qué material es más duradero para exterior?</summary><p>El PVC y el metacrilato con protección UV son los más habituales para exteriores.</p></details>
-<details><summary>¿Se pueden instalar en cualquier fachada?</summary><p>Sí, adaptamos el sistema de anclaje según el tipo de superficie.</p></details>
-<details><summary>¿Cuánto tardan en fabricarse?</summary><p>Depende del tamaño y si incluyen iluminación, pero suelen estar listas en 1-2 semanas.</p></details>
+<details><summary>¿Las letras corpóreas se pueden iluminar?</summary><p>Sí, ofrecemos opciones con luz LED frontal (frontlit, la luz sale hacia el espectador) o retroiluminada (backlit, efecto halo contra la pared). También podemos hacerlas sin luz si buscas un efecto más discreto de día.</p></details>
+<details><summary>¿Qué material es más duradero para exterior?</summary><p>El PVC y el metacrilato con protección UV son los más habituales para exteriores por su buena relación entre coste y durabilidad; el metal (acero o aluminio) es la opción más resistente a largo plazo y aporta un aspecto más corporativo.</p></details>
+<details><summary>¿Se pueden instalar en cualquier fachada?</summary><p>Sí, adaptamos el sistema de anclaje según el tipo de superficie (ladrillo, piedra, cristal, pladur) para que la instalación sea segura y duradera.</p></details>
+<details><summary>¿Cuánto tardan en fabricarse?</summary><p>Depende del tamaño y si incluyen iluminación, pero suelen estar listas en 1-2 semanas desde que se aprueba el diseño definitivo.</p></details>
+<details><summary>¿Puedo ver cómo quedará antes de fabricarlo?</summary><p>Sí, preparamos una previsualización digital sobre una foto de tu fachada o espacio para que puedas ver el tamaño, el color y, si aplica, el efecto de la iluminación antes de aprobar la fabricación.</p></details>
+<details><summary>¿Necesito permiso del ayuntamiento para instalar un rótulo?</summary><p>Depende del municipio y del tipo de vía; muchos ayuntamientos exigen una licencia de rotulación o comunicación previa para rótulos en fachada. Te podemos orientar según tu caso, aunque la gestión del permiso corresponde al propietario del local.</p></details>
+<details><summary>¿Qué mantenimiento necesitan las letras iluminadas?</summary><p>Muy poco: los LED actuales tienen una vida útil muy larga y un consumo bajo. De vez en cuando conviene limpiar el polvo acumulado en la superficie para que la luz se vea uniforme.</p></details>
 </div>
 
 <p><a class="button" href="/contacto/">Pide presupuesto</a></p>
@@ -340,10 +355,13 @@ HTML,
 
 <h2>Preguntas frecuentes</h2>
 <div class="service-faq">
-<details><summary>¿Hay un mínimo de unidades?</summary><p>Depende del producto, pero adaptamos pedidos tanto pequeños como grandes.</p></details>
-<details><summary>¿Puedo combinar varios artículos en una misma campaña?</summary><p>Sí, es habitual combinar tazas, bolígrafos y textil en kits de bienvenida o regalos corporativos.</p></details>
-<details><summary>¿Cuánto tiempo de antelación necesito para un evento?</summary><p>Recomendamos pedir con al menos 2-3 semanas de antelación para campañas grandes.</p></details>
-<details><summary>¿Se puede ver una muestra antes de fabricar todo el pedido?</summary><p>Sí, ofrecemos muestras en pedidos de cierto volumen.</p></details>
+<details><summary>¿Hay un mínimo de unidades?</summary><p>Depende del producto y la técnica: la impresión UV directa permite pedidos muy pequeños (incluso una sola unidad), mientras que técnicas como el grabado láser en serie o el bordado son más rentables a partir de ciertas cantidades.</p></details>
+<details><summary>¿Puedo combinar varios artículos en una misma campaña?</summary><p>Sí, es habitual combinar tazas, bolígrafos y textil en kits de bienvenida o regalos corporativos, manteniendo el mismo logotipo y estilo en todos los artículos del kit.</p></details>
+<details><summary>¿Cuánto tiempo de antelación necesito para un evento?</summary><p>Recomendamos pedir con al menos 2-3 semanas de antelación para campañas grandes o con varios artículos distintos; para pedidos pequeños y sencillos el plazo suele ser más corto.</p></details>
+<details><summary>¿Se puede ver una muestra antes de fabricar todo el pedido?</summary><p>Sí, ofrecemos muestras en pedidos de cierto volumen para que valides colores, colocación del logo y calidad antes de lanzar la producción completa.</p></details>
+<details><summary>¿Puedo pedir un artículo que no esté en vuestro catálogo?</summary><p>Sí, si nos indicas el producto que buscas intentamos localizarlo a través de nuestros proveedores; muchos artículos promocionales admiten varias técnicas de personalización, así que casi siempre encontramos una solución.</p></details>
+<details><summary>¿Cuál es el plazo de entrega habitual?</summary><p>Depende del producto y la cantidad, pero para pedidos estándar el plazo suele rondar entre una y dos semanas desde que se aprueba el diseño.</p></details>
+<details><summary>¿Hacéis envío a domicilio o solo recogida en tienda?</summary><p>Ofrecemos ambas opciones: recogida en nuestras instalaciones o envío directo a tu dirección, e incluso a varias sedes distintas si el pedido lo requiere.</p></details>
 </div>
 
 <p><a class="button" href="/contacto/">Pide presupuesto</a></p>
@@ -389,10 +407,13 @@ HTML,
 
 <h2>Preguntas frecuentes</h2>
 <div class="service-faq">
-<details><summary>¿Puedo pedir solo el diseño sin que lo imprimáis vosotros?</summary><p>Sí, entregamos los archivos finales listos para que los uses donde quieras.</p></details>
-<details><summary>¿Cuántas revisiones incluye el servicio?</summary><p>Incluimos varias rondas de ajustes hasta que el diseño se ajuste a lo que necesitas.</p></details>
-<details><summary>¿Diseñáis logotipos desde cero?</summary><p>Sí, trabajamos tanto marcas nuevas como el rediseño de identidades existentes.</p></details>
-<details><summary>¿En qué formatos entregáis los archivos?</summary><p>En los formatos que necesites (impresión, web, editables) según el uso final.</p></details>
+<details><summary>¿Puedo pedir solo el diseño sin que lo imprimáis vosotros?</summary><p>Sí, entregamos los archivos finales listos para que los uses donde quieras, sin obligación de contratar la producción con nosotros.</p></details>
+<details><summary>¿Cuántas revisiones incluye el servicio?</summary><p>Incluimos varias rondas de ajustes hasta que el diseño se ajuste a lo que necesitas; si el proyecto cambia mucho de dirección respecto al briefing inicial, lo valoramos aparte.</p></details>
+<details><summary>¿Diseñáis logotipos desde cero?</summary><p>Sí, trabajamos tanto marcas nuevas como el rediseño de identidades existentes que necesitan modernizarse o adaptarse a nuevos usos.</p></details>
+<details><summary>¿En qué formatos entregáis los archivos?</summary><p>En los formatos que necesites (impresión, web, editables) según el uso final: PDF de alta resolución, vectorial editable, o los formatos específicos que pida tu imprenta o tu web.</p></details>
+<details><summary>¿Trabajáis con marcas que ya tienen un manual de identidad?</summary><p>Sí, si ya tienes un manual de marca lo seguimos para que cada pieza nueva sea coherente con lo existente; si no lo tienes, podemos crear una guía básica de identidad como parte del proyecto.</p></details>
+<details><summary>¿Cuánto tarda un proyecto de diseño?</summary><p>Depende de la complejidad: un diseño puntual (un cartel, una tarjeta) puede estar listo en pocos días, mientras que una identidad de marca completa con manual y varias aplicaciones necesita más tiempo de trabajo conjunto.</p></details>
+<details><summary>¿Podéis rediseñar mi logo actual en vez de crear uno nuevo?</summary><p>Sí, es un trabajo habitual: modernizamos, simplificamos o adaptamos tu logo actual manteniendo el reconocimiento de marca que ya tienes construido.</p></details>
 </div>
 
 <p><a class="button" href="/contacto/">Pide presupuesto</a></p>
@@ -438,10 +459,13 @@ HTML,
 
 <h2>Preguntas frecuentes</h2>
 <div class="service-faq">
-<details><summary>¿Cuál es la tirada mínima?</summary><p>Trabajamos desde tiradas cortas hasta grandes cantidades, sin mínimos elevados.</p></details>
-<details><summary>¿Puedo imprimir con diseños distintos en el mismo pedido?</summary><p>Sí, es posible combinar diseños distintos, por ejemplo, en tarjetas de varios empleados.</p></details>
-<details><summary>¿Qué acabados ofrecéis?</summary><p>Plastificado brillo o mate, barniz UV, esquinas redondeadas y troquelados a medida.</p></details>
-<details><summary>¿Cuánto tardan los pedidos?</summary><p>La mayoría de pedidos de impresión digital están listos en 24-48 horas, según el volumen y acabado.</p></details>
+<details><summary>¿Cuál es la tirada mínima?</summary><p>Trabajamos desde tiradas cortas hasta grandes cantidades, sin mínimos elevados; la impresión digital precisamente existe para poder imprimir pocas unidades sin el coste de plancha del offset tradicional.</p></details>
+<details><summary>¿Puedo imprimir con diseños distintos en el mismo pedido?</summary><p>Sí, es posible combinar diseños distintos, por ejemplo, en tarjetas de varios empleados o en invitaciones con datos personalizados para cada invitado.</p></details>
+<details><summary>¿Qué acabados ofrecéis?</summary><p>Plastificado brillo o mate, barniz UV selectivo, esquinas redondeadas y troquelados a medida, además de distintos gramajes y texturas de papel según el uso final de la pieza.</p></details>
+<details><summary>¿Cuánto tardan los pedidos?</summary><p>La mayoría de pedidos de impresión digital están listos en 24-48 horas, según el volumen y el acabado elegido; los acabados especiales como el troquelado pueden añadir algún día más.</p></details>
+<details><summary>¿Puedo pedir una muestra física antes de imprimir todo el pedido?</summary><p>Sí, en pedidos de cierto volumen podemos sacar una prueba impresa para que compruebes colores y acabado antes de lanzar la tirada completa.</p></details>
+<details><summary>¿Qué formato de archivo debo enviar?</summary><p>Preferimos PDF de alta resolución con sangrados si el diseño tiene elementos que llegan al borde; si nos envías el archivo editable (Illustrator, InDesign) también lo revisamos y lo preparamos para impresión.</p></details>
+<details><summary>¿Hacéis envíos a otras ciudades?</summary><p>Sí, enviamos los pedidos allá donde los necesites; solo ten en cuenta el tiempo de envío añadido al plazo de producción si tienes una fecha límite.</p></details>
 </div>
 
 <p><a class="button" href="/contacto/">Pide presupuesto</a></p>
