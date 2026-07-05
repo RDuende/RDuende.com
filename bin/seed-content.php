@@ -47,6 +47,14 @@ $services = array(
 <li><strong>Laminado de protección:</strong> añade una capa extra de resistencia a rayones y humedad en piezas que van a manipularse o exponerse a la intemperie.</li>
 </ul>
 
+<h2>Nuestra maquinaria</h2>
+<ul class="service-tech">
+<li><strong>Mimaki CJV150-160:</strong> plotter de impresión y corte eco-solvente que integra el corte de contorno en el mismo proceso, ideal para pegatinas, vinilos troquelados y rotulación con formas personalizadas.</li>
+<li><strong>HP Latex 120:</strong> impresora de tinta látex de HP, con colores vivos, sin olor y curado en la propia impresora, apta para interiores sin necesidad de laminado adicional en muchos usos.</li>
+<li><strong>Impresora DTF (Direct to Film):</strong> transfiere diseños a todo color y con gran detalle sobre prácticamente cualquier tejido, incluido algodón, sin las limitaciones de la sublimación.</li>
+<li><strong>Mimaki UJV (UV rollo a rollo):</strong> impresión UV de curado instantáneo con tintas muy resistentes, capaz de crear efectos especiales (relieve, blanco de contraste, barniz) sobre una gran variedad de materiales rígidos y flexibles.</li>
+</ul>
+
 <h2>Nuestra metodología</h2>
 <ol class="service-methodology">
 <li><strong>Consulta y medición:</strong> analizamos el espacio y el soporte, y te asesoramos sobre el material más adecuado según la ubicación (interior/exterior) y la distancia de visionado.</li>
