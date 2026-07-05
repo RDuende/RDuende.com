@@ -4,35 +4,35 @@ Repositorio del sitio RDuende.com.
 
 ## Requisitos
 
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/) con Docker Compose.
+- [PHP](https://windows.php.net/) 8.x en el PATH, con las extensiones `curl`, `mbstring`, `openssl`, `pdo_sqlite` y `sqlite3` habilitadas en `php.ini`.
 
-## Desarrollo local (WordPress + Docker)
+No se necesita Docker ni MySQL: el entorno local usa el servidor embebido de PHP y SQLite.
 
-1. Copia `.env.example` a `.env` y ajusta las contraseñas.
-2. Levanta los contenedores:
+## Desarrollo local (WordPress + PHP + SQLite)
 
-   ```sh
-   docker compose up -d
+1. Monta el entorno (descarga WordPress, el plugin de SQLite, WP-CLI, enlaza el tema y crea el contenido inicial):
+
+   ```powershell
+   powershell -ExecutionPolicy Bypass -File bin\setup-local-dev.ps1
    ```
 
-3. Abre http://localhost:8080 para completar la instalación de WordPress.
-4. Activa el tema **RDuende** en Apariencia > Temas. El código del tema vive en `wp-content/themes/rduende/` y se monta directamente en el contenedor, así que los cambios se reflejan al instante.
-5. (Opcional) Instala WP-CLI en el contenedor y ejecuta `bin/seed-content.sh` para crear las páginas, el menú y la entrada de blog con el contenido real de RDuende:
+2. Arranca el servidor:
 
    ```sh
-   docker compose exec wordpress sh -c \
-     "curl -sS -o /usr/local/bin/wp https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar && chmod +x /usr/local/bin/wp"
-   docker compose cp bin/seed-content.sh wordpress:/tmp/seed-content.sh
-   docker compose exec -w /var/www/html wordpress sh /tmp/seed-content.sh
+   php -S localhost:8080 -t .wp-local
    ```
 
-   Nota: la página "Sobre nosotros" y los datos de contacto de la página "Contacto" quedan con placeholders `[Pendiente: ...]` hasta que se defina el texto real.
+3. Abre http://localhost:8080 (usuario `admin` / contraseña `admin`).
 
-Para detener el entorno:
+El código del tema vive en `wp-content/themes/rduende/` y se enlaza dentro de `.wp-local/wp-content/themes/rduende` mediante un *junction* de NTFS, así que los cambios se reflejan al instante sin necesidad de copiar archivos.
+
+`.wp-local/` no se versiona (contiene el núcleo de WordPress y la base de datos SQLite, ambos generados localmente). Para reconstruir el contenido inicial (páginas, menú, entrada de blog) sin volver a montar todo el entorno:
 
 ```sh
-docker compose down
+php ruta\a\wp-cli.phar --path=.wp-local eval-file bin\seed-content.php
 ```
+
+Nota: la página "Sobre nosotros" y los datos de contacto de la página "Contacto" quedan con placeholders `[Pendiente: ...]` hasta que se defina el texto real.
 
 ## Contribuir
 

@@ -263,6 +263,57 @@ button[type="submit"] {
 	margin-bottom: 1.5rem;
 }
 
+.service-tech,
+.service-methodology {
+	margin: 0;
+	padding-left: 1.25rem;
+}
+
+.service-tech li,
+.service-methodology li {
+	margin-bottom: 0.75rem;
+	color: var(--rduende-text-muted);
+}
+
+.service-tech strong,
+.service-methodology strong {
+	color: var(--rduende-text);
+}
+
+.service-gallery {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: 1rem;
+	margin: 1.5rem 0;
+}
+
+.service-gallery img {
+	display: block;
+	width: 100%;
+	height: auto;
+	border-radius: 12px;
+	box-shadow: 0 2px 6px rgba(44, 62, 80, 0.08);
+}
+
+.service-faq details {
+	background: var(--rduende-card-bg);
+	border: 1px solid var(--rduende-border);
+	border-radius: 8px;
+	padding: 1rem 1.25rem;
+	margin-bottom: 0.75rem;
+}
+
+.service-faq summary {
+	cursor: pointer;
+	font-weight: 700;
+	color: var(--rduende-text);
+}
+
+.service-faq p {
+	margin: 0.75rem 0 0;
+	color: var(--rduende-text-muted);
+}
+
 .clients-list {
 	display: flex;
 	flex-wrap: wrap;
