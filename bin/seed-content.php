@@ -109,6 +109,13 @@ HTML,
 <li><strong>Instalación con cámara plana:</strong> montaje sin burbujas ni pliegues, con termosoplado en zonas curvas para un acabado profesional.</li>
 </ul>
 
+<h2>Nuestra maquinaria</h2>
+<ul class="service-tech">
+<li><strong>Plotter de corte de precisión:</strong> corta el vinilo directamente desde el archivo vectorial, sin necesidad de imprimir, para logotipos y textos a un solo color. Ejemplos: nombre y teléfono en furgonetas, numeración de flota, rótulos de escaparate en vinilo de corte.</li>
+<li><strong>Mimaki CJV150-160 y HP Latex 120</strong> (los mismos equipos de nuestra área de gran formato): para los gráficos a todo color, fotografías e ilustraciones que se laminan y aplican sobre vehículo o fachada. Ejemplos: rotulación integral de furgonetas con diseño fotográfico, escaparates con imagen de producto a gran tamaño.</li>
+<li><strong>Films de vinilo de marcas reconocidas</strong> (3M, Avery Dennison): para garantizar la máxima durabilidad y facilitar la retirada sin dañar la pintura cuando llega el momento de cambiar de diseño.</li>
+</ul>
+
 <h2>Nuestra metodología</h2>
 <ol class="service-methodology">
 <li><strong>Visita o fotos del vehículo/espacio:</strong> para tomar medidas exactas y detectar particularidades (remaches, molduras, curvas pronunciadas).</li>
@@ -150,6 +157,21 @@ HTML,
 <li><strong>Corte de precisión en metal:</strong> para piezas y letras metálicas que requieren un acabado industrial y gran durabilidad.</li>
 <li><strong>Diseño vectorial a medida:</strong> cada pieza se prepara digitalmente antes del corte, optimizando el trazado para reducir tiempos y desperdicio de material.</li>
 <li><strong>Combinación de materiales:</strong> podemos combinar metacrilato transparente y de color, madera y metal en la misma pieza para composiciones más elaboradas.</li>
+</ul>
+
+<h2>Nuestra maquinaria</h2>
+<ul class="service-tech">
+<li><strong>Láser CO2 de 130 cm de ancho:</strong> nuestro equipo de mayor formato, para corte y grabado en madera, metacrilato, cartón y textiles en piezas grandes de una sola pasada. Lo usamos tanto para <em>corte</em> de precisión (letras corpóreas, plantillas, piezas decorativas) como para <em>grabado</em> de detalle (nombres, logotipos, ilustraciones). Ejemplos: placas conmemorativas, expositores de tienda, mobiliario a medida, letreros de interior y paneles decorativos.</li>
+<li><strong>Láser de grabado por fibra:</strong> especializado en marcar metal y algunos plásticos técnicos, con un trazo muy fino y permanente que no se borra ni con el uso diario. Ejemplos: placas de acero inoxidable, herramientas y utillaje personalizado, chapas identificativas para maquinaria, joyería y bisutería metálica.</li>
+</ul>
+
+<h2>Vitrinas personalizadas — vitrinas.net</h2>
+<p>Diseñamos y fabricamos vitrinas de metacrilato cortadas a medida con nuestro láser, a través de nuestra marca <a href="https://vitrinas.net" target="_blank" rel="noopener">vitrinas.net</a>. Perfectas para proteger y exponer colecciones de figuras, maquetas, coches a escala, cómics o trofeos, fabricadas con las medidas exactas que necesites.</p>
+
+<h2>Otros trabajos habituales con láser</h2>
+<ul class="service-tech">
+<li><strong>Adornos personalizados de Navidad:</strong> figuras, bolas y centros de mesa grabados con nombres o mensajes, ideales como regalo de empresa o detalle familiar en estas fechas.</li>
+<li><strong>Corte de letras corpóreas:</strong> aquí realizamos el corte de precisión de las letras que después se montan como rótulo; si buscas letras en volumen para tu fachada, consulta también nuestro servicio de <a href="/servicios/letras-corporeas/">letras corpóreas</a>.</li>
 </ul>
 
 <h2>Nuestra metodología</h2>
@@ -195,6 +217,14 @@ HTML,
 <li><strong>Bordado:</strong> para logotipos que requieren un acabado más premium y duradero, típico en ropa laboral y polos corporativos.</li>
 </ul>
 
+<h2>Nuestra maquinaria</h2>
+<ul class="service-tech">
+<li><strong>Impresora de sublimación:</strong> transfiere el diseño directamente a la fibra de poliéster mediante calor, sin capas superpuestas que se puedan agrietar. Ejemplos: camisetas técnicas de running, equipaciones de fútbol y baloncesto con diseños a todo color, banderines y merchandising deportivo.</li>
+<li><strong>Impresora DTF</strong> (la misma que usamos en gran formato): para estampar sobre algodón y mezclas donde la sublimación no funciona. Ejemplos: camisetas de eventos populares, sudaderas de peñas y asociaciones, ropa infantil.</li>
+<li><strong>Plancha térmica industrial:</strong> fija el estampado con presión y temperatura constantes en toda la superficie, clave para que el resultado sea uniforme en pedidos grandes.</li>
+<li><strong>Bordadora industrial:</strong> cose el logotipo con hilo, punto a punto, siguiendo un patrón digital. Ejemplos: polos y chaquetas de empresa, gorras corporativas, ropa laboral de hostelería.</li>
+</ul>
+
 <h2>Nuestra metodología</h2>
 <ol class="service-methodology">
 <li><strong>Elección de la prenda y técnica:</strong> según tejido, cantidad y presupuesto, te recomendamos la combinación que mejor resultado dará.</li>
@@ -236,6 +266,13 @@ HTML,
 <li><strong>Corte y fresado de precisión:</strong> para acabados limpios y exactos, incluso en tipografías complejas o logotipos con formas irregulares.</li>
 <li><strong>Pintura y acabados especiales:</strong> lacados, efecto cepillado o cromado para letras metálicas que buscan un toque más distintivo.</li>
 <li><strong>Montaje con separadores:</strong> efecto de volumen sobre la pared, dejando una sombra que refuerza la sensación de profundidad.</li>
+</ul>
+
+<h2>Nuestra maquinaria</h2>
+<ul class="service-tech">
+<li><strong>Láser CO2 de 130 cm</strong> (compartido con nuestra área de corte láser): corta el contorno exacto de cada letra en PVC o metacrilato, con precisión milimétrica en tipografías complejas. Ejemplos: logotipos de marca con tipografías personalizadas, numeración de portales, letras decorativas para interiorismo.</li>
+<li><strong>Fresadora CNC:</strong> para letras en materiales más gruesos o en metal, con un acabado de borde limpio y uniforme. Ejemplos: letras corpóreas en aluminio para fachadas comerciales, placas identificativas de gran tamaño.</li>
+<li><strong>Módulos LED y transformadores:</strong> iluminación interior de cada letra con bajo consumo y larga vida útil. Ejemplos: rótulos de bares y restaurantes visibles de noche, logotipos retroiluminados en recepciones de oficina.</li>
 </ul>
 
 <h2>Nuestra metodología</h2>
@@ -280,6 +317,13 @@ HTML,
 <li><strong>Packaging personalizado:</strong> cajas o bolsas con tu marca para reforzar la experiencia de regalo, especialmente en kits de bienvenida.</li>
 </ul>
 
+<h2>Nuestra maquinaria</h2>
+<ul class="service-tech">
+<li><strong>Mimaki UJV (UV rollo a rollo)</strong> y equipo UV de sobremesa: imprimen directamente sobre tazas, powerbanks, bolígrafos y otros objetos rígidos, sin necesidad de plantillas ni serigrafía previa. Ejemplos: tazas y termos de empresa, powerbanks de regalo, carcasas y objetos de oficina personalizados.</li>
+<li><strong>Láser de grabado por fibra</strong> (compartido con nuestra área de corte láser): marca de forma permanente sobre metal. Ejemplos: bolígrafos metálicos grabados, llaveros, medallas y trofeos conmemorativos.</li>
+<li><strong>Bordadora industrial:</strong> para textil promocional con acabado premium. Ejemplos: mochilas y bolsas de tela con logo bordado, gorras de merchandising.</li>
+</ul>
+
 <h2>Nuestra metodología</h2>
 <ol class="service-methodology">
 <li><strong>Selección del producto:</strong> según presupuesto, público objetivo y el mensaje que quieres transmitir.</li>
@@ -322,6 +366,13 @@ HTML,
 <li><strong>Identidad de marca coherente:</strong> aplicamos tu paleta de colores, tipografías y estilo visual a cada pieza nueva para que todo tu material se vea como parte de la misma marca.</li>
 </ul>
 
+<h2>Nuestras herramientas</h2>
+<ul class="service-tech">
+<li><strong>Adobe Illustrator:</strong> diseño vectorial para logotipos, iconos y cualquier gráfico que necesite escalarse sin perder calidad, desde una tarjeta hasta una lona.</li>
+<li><strong>Adobe Photoshop:</strong> retoque y composición de imagen para fotografías de producto, banners y materiales que combinan fotografía con diseño.</li>
+<li><strong>Adobe InDesign:</strong> maquetación de documentos con muchas páginas. Ejemplos: catálogos de producto, dossiers corporativos, revistas y memorias anuales.</li>
+</ul>
+
 <h2>Nuestra metodología</h2>
 <ol class="service-methodology">
 <li><strong>Briefing:</strong> entendemos tu marca, objetivo y público antes de proponer nada.</li>
@@ -362,6 +413,13 @@ HTML,
 <li><strong>Papeles y gramajes variados:</strong> desde folletos ligeros hasta tarjetas de alta consistencia, con opciones estucadas, texturizadas o recicladas.</li>
 <li><strong>Impresión bajo demanda:</strong> sin necesidad de grandes tiradas mínimas, ideal si necesitas reimprimir solo cuando se acaba el stock.</li>
 <li><strong>Numeración y datos variables:</strong> para talonarios, entradas o materiales donde cada copia necesita un dato distinto (número, nombre, código).</li>
+</ul>
+
+<h2>Nuestra maquinaria</h2>
+<ul class="service-tech">
+<li><strong>Impresora digital de producción:</strong> equipo de alta velocidad para tiradas cortas y medias con calidad de imprenta profesional. Ejemplos: tarjetas de visita, catálogos de producto, invitaciones de boda o evento.</li>
+<li><strong>Guillotina de corte industrial:</strong> corta con precisión grandes pilas de papel a la medida final. Ejemplos: talonarios, flyers, tarjetas en tiradas grandes.</li>
+<li><strong>Plastificadora:</strong> aplica el laminado brillo o mate sobre el papel impreso para mayor resistencia y un acabado más profesional. Ejemplos: cartas de restaurante, menús, portadas de catálogo.</li>
 </ul>
 
 <h2>Nuestra metodología</h2>
@@ -454,6 +512,14 @@ update_option( 'show_on_front', 'page' );
 update_option( 'page_on_front', $inicio_id );
 update_option( 'page_for_posts', $blog_page_id );
 update_option( 'blogdescription', 'Tu idea, nuestro arte' );
+
+// Permalinks "bonitos": el servidor embebido de PHP cae de vuelta a index.php
+// para cualquier ruta que no exista como archivo, así que WordPress puede
+// resolverlas igual que en un hosting con mod_rewrite.
+global $wp_rewrite;
+update_option( 'permalink_structure', '/%postname%/' );
+$wp_rewrite->set_permalink_structure( '/%postname%/' );
+$wp_rewrite->flush_rules();
 
 wp_insert_post(
 	array(
