@@ -115,7 +115,10 @@ $services = array(
 <ul class="service-tech">
 <li><strong>Mimaki CJV150-160:</strong> plotter de impresión y corte eco-solvente que integra el corte de contorno en el mismo proceso, ideal para pegatinas, vinilos troquelados y rotulación con formas personalizadas.</li>
 <li><strong>HP Latex 120:</strong> impresora de tinta látex de HP, con colores vivos, sin olor y curado en la propia impresora, apta para interiores sin necesidad de laminado adicional en muchos usos. La tinta látex está certificada como apta para contacto con productos alimentarios, por lo que también podemos imprimir envases, expositores y señalización para el sector alimentario.</li>
+<li><strong>HP Latex 360:</strong> impresora de tinta látex de mayor formato y producción que nuestra HP Latex 120, para tiradas grandes de lonas, vinilos y papel con la misma calidad de color, sin olor y sin necesidad de laminado adicional en muchos usos.</li>
 <li><strong>Impresora DTF (Direct to Film):</strong> transfiere diseños a todo color y con gran detalle sobre prácticamente cualquier tejido, incluido algodón, sin las limitaciones de la sublimación.</li>
+<li><strong>Impresora UV DTF XP-UV600:</strong> equipo UV DTF de última generación para transferencias con efecto relieve y colores muy vivos, apto para personalizar prácticamente cualquier superficie rígida o flexible.</li>
+<li><strong>XPRINT DTF 6203:</strong> impresora DTF de gran ancho pensada para producción textil de alto volumen, con estampados de gran definición y color incluso en tiradas largas.</li>
 <li><strong>Mimaki UJV (UV rollo a rollo):</strong> impresión UV de curado instantáneo con tintas muy resistentes, capaz de crear efectos especiales (relieve, blanco de contraste, barniz) sobre una gran variedad de materiales rígidos y flexibles.</li>
 </ul>
 
