@@ -504,3 +504,107 @@ footer {
 	font-size: 0.875rem;
 	border-top: 1px solid var(--rduende-border);
 }
+
+.contact-form-wrap {
+	max-width: 640px;
+	margin: 1.5rem 0 2rem;
+	padding: 2rem;
+	background: var(--rduende-card-bg);
+	border: 1px solid var(--rduende-border);
+	border-top: 4px solid var(--rduende-primary);
+	border-radius: 12px;
+	box-shadow: 0 4px 14px rgba(44, 62, 80, 0.08);
+}
+
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	gap: 1.25rem;
+}
+
+.contact-form-row {
+	display: flex;
+	flex-direction: column;
+	gap: 0.4rem;
+}
+
+.contact-form-row--split {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1.25rem;
+}
+
+.contact-form-row--split > div {
+	display: flex;
+	flex-direction: column;
+	gap: 0.4rem;
+}
+
+@media (max-width: 500px) {
+	.contact-form-row--split {
+		grid-template-columns: 1fr;
+	}
+}
+
+.contact-form label {
+	font-weight: 600;
+	color: var(--rduende-text);
+	font-size: 0.95rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+	padding: 0.75rem 1rem;
+	font-size: 1rem;
+	border: 1px solid var(--rduende-border);
+	border-radius: 8px;
+	background: #fff;
+	color: var(--rduende-text);
+	resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+	outline: none;
+	border-color: var(--rduende-primary);
+	box-shadow: 0 0 0 3px rgba(217, 100, 44, 0.15);
+}
+
+.contact-form button[type="submit"] {
+	align-self: flex-start;
+	border: none;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+.contact-form-recaptcha-notice {
+	margin: 0;
+	font-size: 0.78rem;
+	color: var(--rduende-text-muted);
+	line-height: 1.5;
+}
+
+.contact-form-notice {
+	padding: 1rem 1.25rem;
+	border-radius: 8px;
+	margin: 0 0 1.5rem;
+	font-weight: 600;
+}
+
+.contact-form-notice--success {
+	background: rgba(74, 155, 110, 0.12);
+	border: 1px solid var(--accent-green);
+	color: var(--accent-green);
+}
+
+.contact-form-notice--error {
+	background: rgba(214, 69, 69, 0.08);
+	border: 1px solid var(--accent-red);
+	color: var(--accent-red);
+}
+
+.contact-form-notice--error ul {
+	margin: 0;
+	padding-left: 1.2rem;
+	font-weight: 400;
+}
