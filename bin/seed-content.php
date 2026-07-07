@@ -10,6 +10,68 @@
 wp_delete_post( 1, true );
 wp_delete_post( 2, true );
 
+require_once ABSPATH . 'wp-admin/includes/image.php';
+
+/**
+ * Importa una imagen del tema a la Biblioteca de medios (si no se ha importado ya
+ * en esta misma ejecución) y devuelve el ID del adjunto resultante.
+ */
+function rduende_import_media( $relative_path, $alt = '' ) {
+	static $cache = array();
+	if ( isset( $cache[ $relative_path ] ) ) {
+		return $cache[ $relative_path ];
+	}
+
+	$source_path = get_template_directory() . '/assets/images/' . $relative_path;
+	$filetype    = wp_check_filetype( basename( $source_path ) );
+
+	$upload = wp_upload_bits( basename( $source_path ), null, file_get_contents( $source_path ) );
+	if ( ! empty( $upload['error'] ) ) {
+		wp_die( $upload['error'] );
+	}
+
+	$attachment_id = wp_insert_attachment(
+		array(
+			'post_title'     => sanitize_file_name( basename( $relative_path ) ),
+			'post_mime_type' => $filetype['type'],
+			'post_status'    => 'inherit',
+		),
+		$upload['file']
+	);
+	wp_update_attachment_metadata( $attachment_id, wp_generate_attachment_metadata( $attachment_id, $upload['file'] ) );
+	update_post_meta( $attachment_id, '_wp_attachment_image_alt', $alt );
+
+	$cache[ $relative_path ] = $attachment_id;
+	return $attachment_id;
+}
+
+/**
+ * Construye el markup de un bloque de galería nativo de Gutenberg a partir de
+ * una lista de imágenes, para que las galerías de proyectos queden editables
+ * desde el editor de bloques en vez de quedar fijadas en el código del tema.
+ */
+function rduende_gallery_block( array $images ) {
+	$figures = '';
+	$columns = max( 1, count( $images ) );
+	foreach ( $images as $image ) {
+		$id  = rduende_import_media( $image['path'], $image['alt'] );
+		$url = wp_get_attachment_image_url( $id, 'large' );
+		$figures .= sprintf(
+			"<!-- wp:image {\"id\":%d,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"%s\" alt=\"%s\" class=\"wp-image-%d\"/></figure>\n<!-- /wp:image -->\n",
+			$id,
+			esc_url( $url ),
+			esc_attr( $image['alt'] ),
+			$id
+		);
+	}
+	return sprintf(
+		"<!-- wp:gallery {\"columns\":%d,\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-gallery has-nested-images columns-%d is-cropped\">\n%s</figure>\n<!-- /wp:gallery -->",
+		$columns,
+		$columns,
+		$figures
+	);
+}
+
 $inicio_id = wp_insert_post(
 	array(
 		'post_type'    => 'page',
@@ -32,8 +94,10 @@ $services = array(
 	'impresion-de-gran-formato' => array(
 		'title'   => 'Impresión de gran formato',
 		'icon'    => 'icon-impresion-gran-formato.jpg',
-		'gallery' => array( 'icon-impresion-gran-formato.jpg' ),
 		'alt'     => 'Impresión de gran formato: vallas, lonas, carteles y papeles',
+		'gallery' => array(
+			array( 'path' => 'icons/icon-impresion-gran-formato.jpg', 'alt' => 'Impresión de gran formato' ),
+		),
 		'content' => <<<'HTML'
 <img src="/wp-content/themes/rduende/assets/images/icons/icon-impresion-gran-formato.jpg" alt="Impresión de gran formato" class="service-page-image">
 <p>Producimos vinilos, lonas, carteles, rollups y papel de gran formato con la máxima calidad de color, ideales para vallas publicitarias, escaparates y campañas que necesitan impacto visual a gran escala. Trabajamos tanto piezas puntuales como campañas completas para varios puntos de venta, cuidando que el color y el acabado sean idénticos en todas las unidades.</p>
@@ -77,9 +141,7 @@ $services = array(
 </ol>
 
 <h2>Galería</h2>
-<div class="service-gallery">
-<img src="/wp-content/themes/rduende/assets/images/icons/icon-impresion-gran-formato.jpg" alt="Impresión de gran formato">
-</div>
+{{GALLERY}}
 
 <h2>Preguntas frecuentes</h2>
 <div class="service-faq">
@@ -99,6 +161,10 @@ HTML,
 		'title'   => 'Rotulación de vehículos y empresas',
 		'icon'    => 'icon-rotulacion-vinilos.jpg',
 		'alt'     => 'Rotulación y vinilos: vehículos, escaparates y fachadas',
+		'gallery' => array(
+			array( 'path' => 'icons/icon-rotulacion-vinilos.jpg', 'alt' => 'Rotulación de vehículos' ),
+			array( 'path' => 'promo-rotulacion-fachadas.jpg', 'alt' => 'Rotulación de fachadas y tiendas' ),
+		),
 		'content' => <<<'HTML'
 <img src="/wp-content/themes/rduende/assets/images/icons/icon-rotulacion-vinilos.jpg" alt="Rotulación de vehículos y empresas" class="service-page-image">
 <p>Convertimos tu flota y tus espacios en herramientas de comunicación: rotulación de vehículos, escaparates y fachadas con vinilos de corte e impresión digital de alta durabilidad. Cada vehículo o local rotulado se convierte en publicidad en movimiento o en un punto de venta que refuerza tu marca las 24 horas.</p>
@@ -129,10 +195,7 @@ HTML,
 </ol>
 
 <h2>Galería</h2>
-<div class="service-gallery">
-<img src="/wp-content/themes/rduende/assets/images/icons/icon-rotulacion-vinilos.jpg" alt="Rotulación de vehículos">
-<img src="/wp-content/themes/rduende/assets/images/promo-rotulacion-fachadas.jpg" alt="Rotulación de fachadas y tiendas">
-</div>
+{{GALLERY}}
 
 <h2>Preguntas frecuentes</h2>
 <div class="service-faq">
@@ -152,6 +215,10 @@ HTML,
 		'title'   => 'Corte y grabado láser',
 		'icon'    => 'icon-corte-laser.jpg',
 		'alt'     => 'Corte y grabado láser: madera, metacrilato y metal',
+		'gallery' => array(
+			array( 'path' => 'icons/icon-corte-laser.jpg', 'alt' => 'Corte y grabado láser' ),
+			array( 'path' => 'promo-corte-laser-metacrilato.jpg', 'alt' => 'Corte láser de metacrilato' ),
+		),
 		'content' => <<<'HTML'
 <img src="/wp-content/themes/rduende/assets/images/icons/icon-corte-laser.jpg" alt="Corte y grabado láser" class="service-page-image">
 <p>Precisión milimétrica en madera, metacrilato y metal. Ideal para piezas personalizadas, señalética, expositores y proyectos que requieren acabados exactos. Desde una única pieza para un regalo especial hasta series completas para eventos o producción, ajustamos el proceso a la escala de cada encargo.</p>
@@ -190,10 +257,7 @@ HTML,
 </ol>
 
 <h2>Galería</h2>
-<div class="service-gallery">
-<img src="/wp-content/themes/rduende/assets/images/icons/icon-corte-laser.jpg" alt="Corte y grabado láser">
-<img src="/wp-content/themes/rduende/assets/images/promo-corte-laser-metacrilato.jpg" alt="Corte láser de metacrilato">
-</div>
+{{GALLERY}}
 
 <h2>Preguntas frecuentes</h2>
 <div class="service-faq">
@@ -213,6 +277,10 @@ HTML,
 		'title'   => 'Estampación de camisetas deportivas',
 		'icon'    => 'icon-textil-sublimacion.jpg',
 		'alt'     => 'Textil y sublimación: camisetas, ropa laboral y personalización',
+		'gallery' => array(
+			array( 'path' => 'icons/icon-textil-sublimacion.jpg', 'alt' => 'Textil y sublimación' ),
+			array( 'path' => 'promo-lienzos-camisetas.jpg', 'alt' => 'Lienzos y camisetas personalizadas' ),
+		),
 		'content' => <<<'HTML'
 <img src="/wp-content/themes/rduende/assets/images/icons/icon-textil-sublimacion.jpg" alt="Estampación de camisetas deportivas" class="service-page-image">
 <p>Personalizamos camisetas, ropa laboral y textil deportivo con técnicas de sublimación y estampación duraderas, perfectas para equipos y empresas. Ya sea la equipación completa de un club, camisetas de un evento o uniformes corporativos, adaptamos la técnica al tejido y al uso que le vas a dar.</p>
@@ -244,10 +312,7 @@ HTML,
 </ol>
 
 <h2>Galería</h2>
-<div class="service-gallery">
-<img src="/wp-content/themes/rduende/assets/images/icons/icon-textil-sublimacion.jpg" alt="Textil y sublimación">
-<img src="/wp-content/themes/rduende/assets/images/promo-lienzos-camisetas.jpg" alt="Lienzos y camisetas personalizadas">
-</div>
+{{GALLERY}}
 
 <h2>Preguntas frecuentes</h2>
 <div class="service-faq">
@@ -267,6 +332,9 @@ HTML,
 		'title'   => 'Letras corpóreas',
 		'icon'    => 'icon-letras-corporeas.jpg',
 		'alt'     => 'Letras corpóreas: 3D, luminosas o sin luz',
+		'gallery' => array(
+			array( 'path' => 'icons/icon-letras-corporeas.jpg', 'alt' => 'Letras corpóreas' ),
+		),
 		'content' => <<<'HTML'
 <img src="/wp-content/themes/rduende/assets/images/icons/icon-letras-corporeas.jpg" alt="Letras corpóreas" class="service-page-image">
 <p>Letras y logotipos en volumen, con o sin iluminación, para dar presencia y visibilidad a tu marca en fachadas, recepciones y puntos de venta. Son una de las formas más efectivas de generar una primera impresión sólida y profesional, tanto de día como de noche si incorporan luz.</p>
@@ -297,9 +365,7 @@ HTML,
 </ol>
 
 <h2>Galería</h2>
-<div class="service-gallery">
-<img src="/wp-content/themes/rduende/assets/images/icons/icon-letras-corporeas.jpg" alt="Letras corpóreas">
-</div>
+{{GALLERY}}
 
 <h2>Preguntas frecuentes</h2>
 <div class="service-faq">
@@ -319,6 +385,9 @@ HTML,
 		'title'   => 'Artículos publicitarios',
 		'icon'    => 'icon-articulos-promocionales.jpg',
 		'alt'     => 'Artículos promocionales: regalos, merchandising y empresas',
+		'gallery' => array(
+			array( 'path' => 'icons/icon-articulos-promocionales.jpg', 'alt' => 'Artículos publicitarios' ),
+		),
 		'content' => <<<'HTML'
 <img src="/wp-content/themes/rduende/assets/images/icons/icon-articulos-promocionales.jpg" alt="Artículos publicitarios" class="service-page-image">
 <p>Tazas, bolígrafos, mochilas y merchandising personalizado con tu marca: el detalle perfecto para regalos corporativos y campañas promocionales. Un buen artículo promocional se usa durante meses o años, manteniendo tu marca presente mucho después del evento o la entrega.</p>
@@ -349,9 +418,7 @@ HTML,
 </ol>
 
 <h2>Galería</h2>
-<div class="service-gallery">
-<img src="/wp-content/themes/rduende/assets/images/icons/icon-articulos-promocionales.jpg" alt="Artículos publicitarios">
-</div>
+{{GALLERY}}
 
 <h2>Preguntas frecuentes</h2>
 <div class="service-faq">
@@ -371,6 +438,9 @@ HTML,
 		'title'   => 'Diseño gráfico',
 		'icon'    => 'icon-diseno-grafico.jpg',
 		'alt'     => 'Diseño gráfico: imagen, creatividad y comunicación',
+		'gallery' => array(
+			array( 'path' => 'icons/icon-diseno-grafico.jpg', 'alt' => 'Diseño gráfico' ),
+		),
 		'content' => <<<'HTML'
 <img src="/wp-content/themes/rduende/assets/images/icons/icon-diseno-grafico.jpg" alt="Diseño gráfico" class="service-page-image">
 <p>Convertimos tus ideas en imágenes que comunican: diseño de marca, materiales gráficos y creatividad al servicio de tu proyecto. Trabajamos codo a codo con producción, así que cada diseño que creamos ya está pensado para imprimirse o fabricarse sin sorpresas.</p>
@@ -401,9 +471,7 @@ HTML,
 </ol>
 
 <h2>Galería</h2>
-<div class="service-gallery">
-<img src="/wp-content/themes/rduende/assets/images/icons/icon-diseno-grafico.jpg" alt="Diseño gráfico">
-</div>
+{{GALLERY}}
 
 <h2>Preguntas frecuentes</h2>
 <div class="service-faq">
@@ -423,6 +491,9 @@ HTML,
 		'title'   => 'Impresión digital',
 		'icon'    => 'icon-impresion-digital.jpg',
 		'alt'     => 'Impresión digital: tarjetas, folletos, catálogos y más',
+		'gallery' => array(
+			array( 'path' => 'icons/icon-impresion-digital.jpg', 'alt' => 'Impresión digital' ),
+		),
 		'content' => <<<'HTML'
 <img src="/wp-content/themes/rduende/assets/images/icons/icon-impresion-digital.jpg" alt="Impresión digital" class="service-page-image">
 <p>Tarjetas, folletos, catálogos y todo tipo de impresión digital de alta calidad, con tiempos de entrega rápidos. Perfecta para todo el material que necesita renovarse con frecuencia o adaptarse a tiradas cortas sin perder calidad profesional.</p>
@@ -453,9 +524,7 @@ HTML,
 </ol>
 
 <h2>Galería</h2>
-<div class="service-gallery">
-<img src="/wp-content/themes/rduende/assets/images/icons/icon-impresion-digital.jpg" alt="Impresión digital">
-</div>
+{{GALLERY}}
 
 <h2>Preguntas frecuentes</h2>
 <div class="service-faq">
@@ -475,13 +544,17 @@ HTML,
 
 $service_ids = array();
 foreach ( $services as $slug => $svc ) {
+	$content = $svc['content'];
+	if ( ! empty( $svc['gallery'] ) ) {
+		$content = str_replace( '{{GALLERY}}', rduende_gallery_block( $svc['gallery'] ), $content );
+	}
 	$service_ids[ $slug ] = wp_insert_post(
 		array(
 			'post_type'    => 'page',
 			'post_parent'  => $servicios_id,
 			'post_title'   => $svc['title'],
 			'post_status'  => 'publish',
-			'post_content' => $svc['content'],
+			'post_content' => $content,
 			'post_name'    => $slug,
 		)
 	);
@@ -504,6 +577,18 @@ wp_update_post(
 		'post_content' => $grid,
 	)
 );
+
+$clientes = array( 'Eviosys', 'LINASA', 'Primafrio', 'GKS Trucks', 'Grúas Gil', 'Autocares Molina', 'Ecoembes', 'Aguas de Murcia' );
+foreach ( $clientes as $orden => $nombre ) {
+	wp_insert_post(
+		array(
+			'post_type'   => 'cliente',
+			'post_title'  => $nombre,
+			'post_status' => 'publish',
+			'menu_order'  => $orden,
+		)
+	);
+}
 
 $sobre_id = wp_insert_post(
 	array(

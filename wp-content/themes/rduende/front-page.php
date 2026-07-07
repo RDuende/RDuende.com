@@ -84,17 +84,30 @@
 		<a class="section-link" href="<?php echo esc_url( home_url( '/servicios/' ) ); ?>">Ver todos los servicios &rarr;</a>
 	</section>
 
-	<section class="clients">
-		<h2 class="section-title">Confían en nosotros</h2>
-		<ul class="clients-list">
-			<?php
-			$clients = array( 'Eviosys', 'LINASA', 'Primafrio', 'GKS Trucks', 'Grúas Gil', 'Autocares Molina', 'Ecoembes', 'Aguas de Murcia' );
-			foreach ( $clients as $client ) {
-				echo '<li class="client-badge">' . esc_html( $client ) . '</li>';
-			}
-			?>
-		</ul>
-	</section>
+	<?php
+	$clientes = get_posts(
+		array(
+			'post_type'      => 'cliente',
+			'posts_per_page' => -1,
+			'orderby'        => array( 'menu_order' => 'ASC', 'title' => 'ASC' ),
+		)
+	);
+	if ( $clientes ) :
+		?>
+		<section class="clients">
+			<h2 class="section-title">Confían en nosotros</h2>
+			<ul class="clients-list">
+				<?php foreach ( $clientes as $cliente ) : ?>
+					<li class="client-badge">
+						<?php if ( has_post_thumbnail( $cliente ) ) : ?>
+							<?php echo get_the_post_thumbnail( $cliente, 'thumbnail' ); ?>
+						<?php endif; ?>
+						<?php echo esc_html( get_the_title( $cliente ) ); ?>
+					</li>
+				<?php endforeach; ?>
+			</ul>
+		</section>
+	<?php endif; ?>
 
 	<?php
 	$featured = get_posts( array( 'numberposts' => 1 ) );
