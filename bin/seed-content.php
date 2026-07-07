@@ -593,6 +593,20 @@ foreach ( $clientes as $orden => $nombre ) {
 	);
 }
 
+// Página real de la calculadora de vitrinas (vitrinas.net), solo si el
+// plugin correspondiente está activo en este entorno.
+if ( shortcode_exists( 'rduende_vitrinas_anuncio' ) ) {
+	wp_insert_post(
+		array(
+			'post_type'    => 'page',
+			'post_title'   => 'Calcula el precio de tu vitrina',
+			'post_status'  => 'publish',
+			'post_name'    => 'calcula-el-precio-de-tu-vitrina',
+			'post_content' => '[rduende_vitrinas_anuncio]',
+		)
+	);
+}
+
 $sobre_id = wp_insert_post(
 	array(
 		'post_type'    => 'page',
