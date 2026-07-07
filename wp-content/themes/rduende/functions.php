@@ -16,6 +16,26 @@ function rduende_setup() {
 }
 add_action( 'after_setup_theme', 'rduende_setup' );
 
+function rduende_register_cliente_cpt() {
+	register_post_type(
+		'cliente',
+		array(
+			'labels'       => array(
+				'name'          => __( 'Clientes', 'rduende' ),
+				'singular_name' => __( 'Cliente', 'rduende' ),
+				'add_new_item'  => __( 'Añadir cliente', 'rduende' ),
+				'edit_item'     => __( 'Editar cliente', 'rduende' ),
+			),
+			'public'       => false,
+			'show_ui'      => true,
+			'show_in_menu' => true,
+			'menu_icon'    => 'dashicons-groups',
+			'supports'     => array( 'title', 'thumbnail', 'page-attributes' ),
+		)
+	);
+}
+add_action( 'init', 'rduende_register_cliente_cpt' );
+
 function rduende_default_site_icon_url( $url ) {
 	return $url ? $url : get_theme_file_uri( 'assets/images/favicon.png' );
 }
