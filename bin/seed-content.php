@@ -99,8 +99,36 @@ $services = array(
 			array( 'path' => 'icons/icon-impresion-gran-formato.jpg', 'alt' => 'Impresión de gran formato' ),
 		),
 		'content' => <<<'HTML'
-<img src="/wp-content/themes/rduende/assets/images/icons/icon-impresion-gran-formato.jpg" alt="Impresión de gran formato" class="service-page-image">
-<p>Producimos vinilos, lonas, carteles, rollups y papel de gran formato con la máxima calidad de color, ideales para vallas publicitarias, escaparates y campañas que necesitan impacto visual a gran escala. Trabajamos tanto piezas puntuales como campañas completas para varios puntos de venta, cuidando que el color y el acabado sean idénticos en todas las unidades.</p>
+<section class="rd-hero-service">
+<div class="rd-hero-bg"></div>
+<div class="rd-hero-wrap">
+<div class="rd-hero-content">
+<span class="rd-eyebrow">Servicio RDuende</span>
+<h1>Impresión de<br>gran <span class="rd-accent">formato</span></h1>
+<p class="rd-hero-lead">Vinilos, lonas y carteles que hacen visible tu marca a gran escala.</p>
+<p class="rd-hero-text">Fabricamos soluciones de impresión para escaparates, fachadas, vehículos, eventos y campañas publicitarias con acabado profesional e instalación disponible.</p>
+<div class="rd-hero-actions">
+<a href="/contacto/" class="rd-btn rd-btn-primary">Solicitar presupuesto</a>
+<a href="#galeria" class="rd-btn rd-btn-secondary">Ver trabajos</a>
+</div>
+<div class="rd-hero-features">
+<div>Producción propia</div>
+<div>Instalación profesional</div>
+<div>Interior y exterior</div>
+<div>Materiales premium</div>
+</div>
+</div>
+<div class="rd-hero-visual">
+<div class="rd-photo-card">
+<img src="/wp-content/themes/rduende/assets/images/icons/icon-impresion-gran-formato.jpg" alt="Impresión de gran formato RDuende">
+</div>
+<div class="rd-floating-card">
+<strong>+35 años</strong>
+<span>dando forma a ideas</span>
+</div>
+</div>
+</div>
+</section>
 
 <h2>Tecnología y materiales</h2>
 <ul class="service-tech">
@@ -143,7 +171,7 @@ $services = array(
 <li><strong>Entrega o instalación:</strong> colocación en sitio si se requiere, o embalaje reforzado para que llegue en perfecto estado si prefieres instalarlo tú mismo.</li>
 </ol>
 
-<h2>Galería</h2>
+<h2 id="galeria">Galería</h2>
 {{GALLERY}}
 
 <h2>Preguntas frecuentes</h2>
