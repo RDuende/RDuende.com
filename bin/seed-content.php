@@ -99,35 +99,59 @@ $services = array(
 			array( 'path' => 'icons/icon-impresion-gran-formato.jpg', 'alt' => 'Impresión de gran formato' ),
 		),
 		'content' => <<<'HTML'
-<section class="rd-hero-service">
-<div class="rd-hero-bg"></div>
-<div class="rd-hero-wrap">
-<div class="rd-hero-content">
-<span class="rd-eyebrow">Servicio RDuende</span>
-<h1>Impresión de<br>gran <span class="rd-accent">formato</span></h1>
-<p class="rd-hero-lead">Vinilos, lonas y carteles que hacen visible tu marca a gran escala.</p>
-<p class="rd-hero-text">Fabricamos soluciones de impresión para escaparates, fachadas, vehículos, eventos y campañas publicitarias con acabado profesional e instalación disponible.</p>
-<div class="rd-hero-actions">
-<a href="/contacto/" class="rd-btn rd-btn-primary">Solicitar presupuesto</a>
-<a href="#galeria" class="rd-btn rd-btn-secondary">Ver trabajos</a>
-</div>
-<div class="rd-hero-features">
-<div>Producción propia</div>
-<div>Instalación profesional</div>
-<div>Interior y exterior</div>
-<div>Materiales premium</div>
-</div>
-</div>
-<div class="rd-hero-visual">
-<div class="rd-photo-card">
-<img src="/wp-content/themes/rduende/assets/images/icons/icon-impresion-gran-formato.jpg" alt="Impresión de gran formato RDuende">
-</div>
-<div class="rd-floating-card">
-<strong>+35 años</strong>
-<span>dando forma a ideas</span>
-</div>
-</div>
-</div>
+<section class="rd-hero-premium">
+
+  <div class="rd-stars">
+    <span></span><span></span><span></span><span></span>
+  </div>
+
+  <div class="rd-hero-inner">
+
+    <div class="rd-hero-copy">
+      <span class="rd-kicker">Servicio RDuende</span>
+
+      <h1>
+        Impresión de<br>
+        gran <em>formato</em>
+      </h1>
+
+      <p class="rd-lead">
+        Las mejores ideas merecen verse en grande.
+      </p>
+
+      <p class="rd-text">
+        Fabricamos vinilos, lonas, carteles y piezas de gran formato para escaparates,
+        fachadas, vehículos, eventos y campañas publicitarias con acabado profesional.
+      </p>
+
+      <div class="rd-actions">
+        <a href="/contacto/" class="rd-btn-main">Solicitar presupuesto</a>
+        <a href="/trabajos-realizados/" class="rd-btn-ghost">Ver trabajos</a>
+      </div>
+    </div>
+
+    <div class="rd-hero-art">
+      <div class="rd-glow"></div>
+
+      <div class="rd-image-frame">
+        <img src="/wp-content/themes/rduende/assets/images/hero-service-visual.png" alt="Impresión de gran formato RDuende">
+      </div>
+
+      <div class="rd-badge">
+        <strong>+35</strong>
+        <span>años creando impacto visual</span>
+      </div>
+    </div>
+
+    <div class="rd-mini-grid">
+      <div><strong>Producción</strong><span>propia</span></div>
+      <div><strong>Instalación</strong><span>profesional</span></div>
+      <div><strong>Interior</strong><span>y exterior</span></div>
+      <div><strong>Materiales</strong><span>premium</span></div>
+    </div>
+
+  </div>
+
 </section>
 
 <h2>Tecnología y materiales</h2>

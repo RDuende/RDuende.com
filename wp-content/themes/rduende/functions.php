@@ -41,7 +41,9 @@ function rduende_default_site_icon_url( $url ) {
 }
 
 function rduende_enqueue_assets() {
-	wp_enqueue_style( 'rduende-style', get_stylesheet_uri(), array(), '0.1.0' );
+	$style_path = get_stylesheet_directory() . '/style.css';
+	$version    = file_exists( $style_path ) ? filemtime( $style_path ) : '0.1.0';
+	wp_enqueue_style( 'rduende-style', get_stylesheet_uri(), array(), $version );
 }
 add_action( 'wp_enqueue_scripts', 'rduende_enqueue_assets' );
 
